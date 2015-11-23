@@ -1,6 +1,6 @@
 <?
 	//define the receiver of the email
-	define('TO_EMAIL','rajiv.parajuli@hotmail.com');
+	define('TO_EMAIL','raziv.parazuli@gmail.com');
 	
 	//define the subject of the email
 	define('SUBJECT','Contact from your website');	
