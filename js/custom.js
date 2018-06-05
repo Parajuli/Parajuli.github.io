@@ -136,7 +136,7 @@ jQuery(document).ready(function(){
 	// Needed variables
 	var $map 				= $('#map'),
 		$tabContactClass 	= ('tab-contact'),
-		$address 			= 'Kapan Milan Chowk, Budhanilkantha 44600';
+		$address 			= ('Kapan Milan Chowk, Budhanilkantha 44600');
 	
 	$content.bind('easytabs:after', function(evt,tab,panel) {
 		if ( tab.hasClass($tabContactClass) ) {
