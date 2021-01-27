@@ -136,7 +136,7 @@ jQuery(document).ready(function(){
 	// Needed variables
 	var $map 				= $('#map'),
 		$tabContactClass 	= ('tab-contact'),
-		$address 			= 'Milan Chowk Galli 01, Budhanilkantha 44600, Nepal';
+		$address 			= 'Campsie, New South Wales 2194 Australia';
 	
 	$content.bind('easytabs:after', function(evt,tab,panel) {
 		if ( tab.hasClass($tabContactClass) ) {
