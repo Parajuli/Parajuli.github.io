@@ -350,12 +350,9 @@
 	}
 	.skills li {
 		margin-bottom:15px;
-		float:left;
 		padding-left:30px;
 	}
 	.skills li h4 {
-		width:200px;
-		float:left;
 		font-size:15px;
 		color: #444;
 	}
