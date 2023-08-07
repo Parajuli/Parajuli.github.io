@@ -341,7 +341,7 @@
 	}
 	/* Skills Section */
 	.skills-section {
-		width:460px;
+		width:300px;
 	}
 	.skills {
 		margin-top:25px;
@@ -354,7 +354,7 @@
 		padding-left:30px;
 	}
 	.skills li h4 {
-		width:140px;
+		width:250px;
 		/* float:left; */
 		font-size:15px;
 		color: #444;
