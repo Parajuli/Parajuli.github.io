@@ -355,7 +355,7 @@
 	}
 	.skills li h4 {
 		width:140px;
-		float:left;
+		/* float:left; */
 		font-size:15px;
 		color: #444;
 	}
