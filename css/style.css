@@ -345,7 +345,7 @@
 	}
 	.skills {
 		margin-top:25px;
-		overflow:visible;
+		overflow:hidden;
 		height:100%;
 	}
 	.skills li {
@@ -354,7 +354,7 @@
 		padding-left:30px;
 	}
 	.skills li h4 {
-		width:250px;
+		width:200px;
 		float:left;
 		font-size:15px;
 		color: #444;
