@@ -128,19 +128,5 @@ jQuery(document).ready(function(){
 			}
 		 });
 		return false;
-	});	
-	
-	$content.bind('easytabs:after', function(evt,tab,panel) {
-		if ( tab.hasClass($tabContactClass) ) {
-			$map.gMap({
-				address: $address,
-				zoom: 16,
-				markers: [
-					{ 'address' : $address }
-				]
-			});
-		}
-  	});
-	
-
+	});
 });	
