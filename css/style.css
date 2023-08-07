@@ -345,48 +345,19 @@
 	}
 	.skills {
 		margin-top:25px;
-		/* overflow:visible; */
+		overflow:visible;
 		height:100%;
 	}
 	.skills li {
 		margin-bottom:15px;
-		/* float:left; */
+		float:left;
 		padding-left:30px;
 	}
 	.skills li h4 {
 		width:250px;
-		/* float:left; */
+		float:left;
 		font-size:15px;
 		color: #444;
-	}
-	/* .skills li .rat0, .skills li .rat1, .skills li .rat2, .skills li .rat3, .skills li .rat4, .skills li .rat5, .skills li .rat6, .skills li .rat7 {
-		width:123px;
-		height:14px;
-		float:left;
-	} */
-	.skills li .rat0 {
-		background:url(../images/rats.png) no-repeat;
-	}
-	.skills li .rat1 {
-		background:url(../images/rats.png) no-repeat 0px -14px;
-	}
-	.skills li .rat2 {
-		background:url(../images/rats.png) no-repeat 0px -28px;
-	}
-	.skills li .rat3 {
-		background:url(../images/rats.png) no-repeat 0px -42px;
-	}
-	.skills li .rat4 {
-		background:url(../images/rats.png) no-repeat 0px -56px;
-	}
-	.skills li .rat5 {
-		background:url(../images/rats.png) no-repeat 0px -70px;
-	}
-	.skills li .rat6 {
-		background:url(../images/rats.png) no-repeat 0px -84px;
-	}
-	.skills li .rat7 {
-		background:url(../images/rats.png) no-repeat 0px -98px;
 	}
 	/*-------------------------------------------------------*/
 		/* Portfolio Section */
