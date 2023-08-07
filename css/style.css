@@ -345,12 +345,13 @@
 	}
 	.skills {
 		margin-top:25px;
-		overflow:hidden;
+		list-style: disc;
+		padding-left: 25px;
 		height:100%;
 	}
 	.skills li {
 		margin-bottom:15px;
-		padding-left:30px;
+		padding-left:8px;
 	}
 	.skills li h4 {
 		font-size:15px;
