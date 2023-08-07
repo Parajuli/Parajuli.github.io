@@ -728,7 +728,7 @@
 		width:420px;
 	}
 	.skills li h4 {
-		width:260px;
+		width:300px;
 	}
 	/*-------------------------------------------------------*/
 		/* Portfolio */
@@ -757,7 +757,7 @@
 	
 	#container {
 		width:300px;
-				margin-top:10px;
+		margin-top:10px;
 	}
 	/*-------------------------------------------------------*/
 		/* Top Section */
@@ -849,10 +849,10 @@
 		padding-right:60px;
 	}
 	.skills-section {
-		width:280px;
+		width:300px;
 	}
 	.skills li h4 {
-		width:120px;
+		width:250px;
 	}
 	/*-------------------------------------------------------*/
 		/* Portfolio */
