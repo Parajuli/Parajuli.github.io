@@ -345,12 +345,12 @@
 	}
 	.skills {
 		margin-top:25px;
-		overflow:hidden;
+		overflow:visible;
 		height:100%;
 	}
 	.skills li {
 		margin-bottom:15px;
-		float:left;
+		/* float:left; */
 		padding-left:30px;
 	}
 	.skills li h4 {
