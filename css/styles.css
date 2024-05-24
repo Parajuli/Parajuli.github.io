@@ -45,6 +45,7 @@ nav {
     height: 0;
     padding-bottom: 75%; /* 4:3 aspect ratio */
     margin-bottom: 2rem;
+    overflow: hidden;
 }
 
 .iframe-container iframe {
