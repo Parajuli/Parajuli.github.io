@@ -1,186 +1,285 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parajuli Phone Repair Service</title>
-    <link rel="stylesheet" href="css/styles.css">
-	<link rel="icon" type="image/jpeg" href="logo.jpg">
-</head>
-<body>
-    <!-- Navigation Bar -->
-    <nav>
-        <div class="nav-container">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Parajuli Phone Repair Service</title>
+      <link rel="stylesheet" href="styles.css">
+      <link rel="icon" type="image/jpeg" href="logo.jpg">
+   </head>
+   <body>
+      <!-- Navigation Bar -->
+      <nav>
+         <div class="nav-container">
             <a href="https://parajuli.dev" class="logo"><img src="logo.jpg" alt="Logo"></a>
             <div class="menu-toggle" id="menuToggle">
-                <div class="hamburger"></div>
-                <div class="hamburger"></div>
-                <div class="hamburger"></div>
+               <div class="hamburger"></div>
+               <div class="hamburger"></div>
+               <div class="hamburger"></div>
             </div>
             <ul class="nav-links" id="navLinks">
-                <li><a href="#get-quote">GET YOUR QUOTE</a></li>
-                <li><a href="#book-now"><strong>BOOK NOW</strong></a></li>
-                <li><a href="#about">ABOUT US</a></li>
-                <li><a href="#services">OUR SERVICES</a></li>
-                <li><a href="#location">OUR LOCATION</a></li>
+               <li><a href="#get-quote">GET YOUR QUOTE</a></li>
+               <li><a href="#book-now"><strong>BOOK NOW</strong></a></li>
+               <li><a href="#about">ABOUT US</a></li>
+               <li><a href="#services">OUR SERVICES</a></li>
+               <li><a href="#location">OUR LOCATION</a></li>
             </ul>
-        </div>
-    </nav>
-
-    <!-- Get Your Quote Section -->
-    <section id="get-quote">
-        <h2>GET YOUR FREE QUOTE</h2>
-        <form id="quoteForm">
+         </div>
+      </nav>
+      <!-- Get Your Quote Section -->
+      <section id="get-quote">
+         <h2>GET YOUR FREE QUOTE</h2>
+         <form id="quoteForm">
             <label for="deviceType">Device Type:</label>
             <select id="deviceType" name="deviceType" required>
-                <option value="">Select a type</option>
-                <option value="iphone">Apple iPhone</option>
-                <option value="samsung">Samsung Galaxy</option>
-                <option value="ipad">Apple iPad</option>
-                <!-- Add more device types as needed -->
+               <option value="">Select a type...</option>
+               <option value="iphone">Apple iPhone</option>
+               <option value="samsung_s">Samsung Galaxy S Series</option>
+               <option value="samsung_a">Samsung Galaxy A Series</option>
+               <option value="samsung_note">Samsung Galaxy Note Series</option>
+               <option value="pixel">Google Pixel</option>
+               <option value="ipad">Apple iPad</option>
             </select>
-
             <label for="model">Device Model:</label>
             <select id="model" name="model" required>
-                <option value="">Select a model</option>
-                <option value="iphone_11">iPhone 11</option>
-                <option value="iphone_12">iPhone 12</option>
-                <option value="samsung_s20">Samsung S20</option>
-                <option value="samsung_s21">Samsung S21</option>
-                <!-- Add more models as needed -->
+               <option value="">Select a model...</option>
+               <!-- iPhone Models -->
+               <option value="iphone_8">iPhone 8</option>
+			   <option value="iphone_se">iPhone SE (2020)</option>
+               <option value="iphone_x">iPhone X</option>
+               <option value="iphone_xs">iPhone XS</option>
+               <option value="iphone_xr">iPhone XR</option>
+               <option value="iphone_xs_max">iPhone XS Max</option>
+               <option value="iphone_11">iPhone 11</option>
+               <option value="iphone_11_pro">iPhone 11 Pro</option>
+               <option value="iphone_11_pro_max">iPhone 11 Pro Max</option>
+               <option value="iphone_12">iPhone 12</option>
+               <option value="iphone_12_pro">iPhone 12 Pro</option>
+               <option value="iphone_12_pro_max">iPhone 12 Pro Max</option>
+               <option value="iphone_13_mini">iPhone 13 Mini</option>
+               <option value="iphone_13">iPhone 13</option>
+               <option value="iphone_13_pro">iPhone 13 Pro</option>
+               <option value="iphone_13_pro_max">iPhone 13 Pro Max</option>
+               <option value="iphone_14">iPhone 14</option>
+               <option value="iphone_14_plus">iPhone 14 Plus</option>
+               <option value="iphone_14_pro">iPhone 14 Pro</option>
+               <option value="iphone_14_pro_max">iPhone 14 Pro Max</option>
+               <!-- Samsung S Series -->
+               <option value="samsung_s10e">Samsung S10e</option>
+               <option value="samsung_s10">Samsung S10</option>
+               <option value="samsung_s10_plus">Samsung S10 Plus</option>
+               <option value="samsung_s20">Samsung S20</option>
+               <option value="samsung_s20_plus">Samsung S20 Plus</option>
+               <option value="samsung_s20_fe">Samsung S20 FE</option>
+               <option value="samsung_s20_ultra">Samsung S20 Ultra</option>
+               <option value="samsung_s21">Samsung S21</option>
+               <option value="samsung_s21_fe">Samsung S21 FE</option>
+               <option value="samsung_s21_plus">Samsung S21 Plus</option>
+               <option value="samsung_s21_ultra">Samsung S21 Ultra</option>
+               <option value="samsung_s22">Samsung S22</option>
+               <option value="samsung_s22_plus">Samsung S22 Plus</option>
+               <option value="samsung_s22_ultra">Samsung S22 Ultra</option>
+               <option value="samsung_s23">Samsung S23</option>
+               <option value="samsung_s23_fe">Samsung S23 FE</option>
+               <option value="samsung_s23_plus">Samsung S23 Plus</option>
+               <option value="samsung_s23_ultra">Samsung S23 Ultra</option>
+               <!-- Samsung A Series -->
+               <option value="samsung_a11">Samsung A11</option>
+               <option value="samsung_a12">Samsung A12</option>
+               <option value="samsung_a13_4g">Samsung A13 4G</option>
+               <option value="samsung_a13_5g">Samsung A13 5G</option>
+               <option value="samsung_a14_4g">Samsung A14 4G</option>
+               <option value="samsung_a14_5g">Samsung A14 5G</option>
+               <option value="samsung_a15">Samsung A15</option>
+               <option value="samsung_a20">Samsung A20</option>
+               <option value="samsung_a21">Samsung A21</option>
+               <option value="samsung_a21s">Samsung A21S</option>
+               <option value="samsung_a22_4g">Samsung A22 4G</option>
+               <option value="samsung_a22_5g">Samsung A22 5G</option>
+               <option value="samsung_a23">Samsung A23</option>
+               <option value="samsung_a30">Samsung A30</option>
+               <option value="samsung_a30s">Samsung A30S</option>
+               <option value="samsung_a31">Samsung A31</option>
+               <option value="samsung_a32_4g">Samsung A32 4G</option>
+               <option value="samsung_a32_5g">Samsung A32 5G</option>
+               <option value="samsung_a33_5g">Samsung A33 5G</option>
+               <option value="samsung_a40">Samsung A40</option>
+               <option value="samsung_a42">Samsung A42</option>
+               <option value="samsung_a50">Samsung A50</option>
+               <option value="samsung_a50s">Samsung A50S</option>
+               <option value="samsung_a51_4g">Samsung A51 4G</option>
+               <option value="samsung_a51_5g">Samsung A51 5G</option>
+               <option value="samsung_a52">Samsung A52</option>
+               <option value="samsung_a52s">Samsung A52S</option>
+               <option value="samsung_a52_5g">Samsung A52 5G</option>
+               <option value="samsung_a53_5g">Samsung A53 5G</option>
+               <option value="samsung_a54_5g">Samsung A54 5G</option>
+               <option value="samsung_a70">Samsung A70</option>
+               <option value="samsung_a71_4g">Samsung A71 4G</option>
+               <option value="samsung_a71_5g">Samsung A71 5G</option>
+               <option value="samsung_a72_4g">Samsung A72 4G</option>
+               <option value="samsung_a72_5g">Samsung A72 5G</option>
+               <!-- Samsung Note Series -->
+               <option value="samsung_note_8">Samsung Note 8</option>
+               <option value="samsung_note_9">Samsung Note 9</option>
+               <option value="samsung_note_10">Samsung Note 10</option>
+               <option value="samsung_note_10_plus">Samsung Note 10 Plus</option>
+               <option value="samsung_note_20">Samsung Note 20</option>
+               <option value="samsung_note_20_ultra">Samsung Note 20 Ultra</option>
+               <!-- Google Pixel -->
+               <option value="google_pixel_3">Pixel 3</option>
+               <option value="google_pixel_3a">Pixel 3a</option>
+               <option value="google_pixel_4">Pixel 4</option>
+               <option value="google_pixel_4a">Pixel 4a</option>
+               <option value="google_pixel_5">Pixel 5</option>
+               <option value="google_pixel_6_pro">Pixel 6 Pro</option>
+               <option value="google_pixel_6">Pixel 6</option>
+               <option value="google_pixel_6a">Pixel 6a</option>
+               <option value="google_pixel_7_pro">Pixel 7 Pro</option>
+               <option value="google_pixel_7">Pixel 7</option>
+               <option value="google_pixel_7a">Pixel 7a</option>
+               <option value="google_pixel_8">Pixel 8</option>
+               <option value="google_pixel_8_pro">Pixel 8 Pro</option>
+               <!-- Apple iPad -->
+               <option value="ipad_5">iPad 5</option>
+               <option value="ipad_6">iPad 6</option>
+               <option value="ipad_7">iPad 7</option>
+               <option value="ipad_8">iPad 8</option>
+               <option value="ipad_9">iPad 9</option>
+               <option value="ipad_10">iPad 10</option>
+               <option value="mini_4">Mini 4</option>
+               <option value="mini_5">Mini 5</option>
+               <option value="mini_6">Mini 6</option>
+               <option value="air_1">Air 1</option>
+               <option value="air_2">Air 2</option>
+               <option value="air_3">Air 3</option>
+               <option value="air_4">Air 4</option>
+               <option value="air_5">Air 5 (2022)</option>
+               <option value="pro_9.7">Pro 9.7</option>
+               <option value="pro_10.5">Pro 10.5</option>
+               <option value="pro_11_1st_gen_2018">Pro 11 1st Gen (2018)</option>
+               <option value="pro_11_2nd_gen_2020">Pro 11 2nd Gen (2020)</option>
+               <option value="pro_11_3rd_gen">Pro 11 3rd Gen</option>
+               <option value="pro_12.9_2015">Pro 12.9 (2015)</option>
+               <option value="pro_12.9_2018">Pro 12.9 (2018)</option>
+               <option value="pro_12.9_2020">Pro 12.9 (2020)</option>
+               <option value="pro_12.9_2021">Pro 12.9 (2021)</option>
+               <option value="pro_12.9_2022">Pro 12.9 (2022)</option>
             </select>
-
             <label for="issue">Issue:</label>
             <select id="issue" name="issue" required>
-                <option value="">Select an issue</option>
-                <option value="screen_replacement">Screen Replacement</option>
-                <option value="battery_replacement">Battery Replacement</option>
-                <option value="water_damage">Water Damage</option>
-                <!-- Add more issues as needed -->
+               <option value="">Select an issue...</option>
+               <!-- Options will be populated dynamically based on device type selection -->
             </select>
-
             <label>Estimated Price:</label>
             <span id="price"></span>
-        </form>
-    </section>
-
-    <section id="book-now">
-        <h2>BOOK NOW</h2>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe8e6awaixuSub7yIDiQd4nMr29lGmNHI5a7e3137pME6kLdg/viewform?embedded=true" width="640" height="2100" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-    </section>
-    
-<!-- About Us Section -->
-<section id="about">
-    <h2>ABOUT US</h2>
-    <div class="about-content">
-        <p>Welcome to <strong>Parajuli Phone Repair Services</strong>, your trusted partner for all your phone repair needs. Our mission is to provide reliable, efficient, and affordable repair services that keep you connected to the things that matter most.</p>
-
-        <h3>Our Story</h3>
-        <p><strong>Parajuli Phone Repair Services</strong> began with a simple idea: to offer high-quality repair services that everyone can trust. Our founders, tech enthusiasts with years of experience in the electronics industry, noticed a gap in the market for honest and dependable phone repair services. Determined to fill this gap, they established <strong>Parajuli Phone Repair Services</strong> with a focus on transparency, expertise, and exceptional customer service.</p>
-
-        <h3>What We Do</h3>
-        <p>We specialise in repairing a wide range of phone issues, including cracked screens, battery replacements, and more. Our technicians use state-of-the-art equipment and genuine parts to ensure that your device is restored to its original condition. We service all major brands, including Apple, Samsung, Google, and more.</p>
-
-        <h3>Why Choose Us?</h3>
-        <p><strong>Expert Technicians:</strong> Our skilled technicians are trained to handle the latest phone models and repair techniques, ensuring your device is in capable hands.</p>
-        <p><strong>Fast Turnaround:</strong> We understand the importance of your phone in your daily life, which is why we offer quick repairs for most issues.</p>
-        <p><strong>Quality Parts:</strong> We use only high-quality, genuine parts to guarantee the longevity and performance of your device.</p>
-        <p><strong>Customer Satisfaction:</strong> Our top priority is your satisfaction. We offer a warranty on all our repairs to give you peace of mind.</p>
-        <p><strong>Transparent Pricing:</strong> No hidden fees or surprises. We provide clear, upfront pricing so you know exactly what to expect.</p>
-
-        <h3>Our Values</h3>
-        <p>At <strong>Parajuli Phone Repair Services</strong>, we are guided by a set of core values that shape everything we do:</p>
-        <p><strong>Integrity:</strong> We believe in honest and transparent service. You can trust us to provide accurate diagnoses and fair pricing.</p>
-        <p><strong>Quality:</strong> We strive for excellence in every repair, ensuring that each device we fix meets the highest standards of quality.</p>
-        <p><strong>Customer-Centric:</strong> Your needs are at the forefront of our business. We listen to your concerns and tailor our services to meet your specific requirements.</p>
-        <p><strong>Innovation:</strong> Technology is constantly evolving, and so are we. We stay updated with the latest industry trends and repair techniques to provide the best possible service.</p>
-
-        <h3>Get in Touch</h3>
-        <p>Whether you need a quick screen fix, a battery replacement, or a more complex repair, <strong>Parajuli Phone Repair Services</strong> is here to help. Message us or book an appointment online to experience the best in phone repair services. Let us get your device back to perfect condition, so you can stay connected to what matters most.</p>
-        
-        <p>Thank you for choosing <strong>Parajuli Phone Repair Services</strong>. We look forward to serving you!</p>
-    </div>
-</section>
-
-
-	
-	    <!-- Our Services Section -->
-    <section id="services">
-    <h2>OUR SERVICES</h2>
-    <div class="image-grid">
-        <div class="image-row">
-            <div class="image-container">
-                <!-- Placeholder for Image 1 -->
-                <img src="broken_screen.png" alt="Service Image 1">
-				<p><strong>Screen Replacement</strong></p>
+         </form>
+      </section>
+      <section id="book-now">
+         <h2>BOOK NOW</h2>
+         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe8e6awaixuSub7yIDiQd4nMr29lGmNHI5a7e3137pME6kLdg/viewform?embedded=true" width="640" height="2100" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      </section>
+      <!-- About Us Section -->
+      <section id="about">
+         <h2>ABOUT US</h2>
+         <div class="about-content">
+            <p>Welcome to <strong>Parajuli Phone Repair Services</strong>, your trusted partner for all your phone repair needs. Our mission is to provide reliable, efficient, and affordable repair services that keep you connected to the things that matter most.</p>
+            <h3>Our Story</h3>
+            <p><strong>Parajuli Phone Repair Services</strong> began with a simple idea: to offer high-quality repair services that everyone can trust. Our founders, tech enthusiasts with years of experience in the electronics industry, noticed a gap in the market for honest and dependable phone repair services. Determined to fill this gap, they established <strong>Parajuli Phone Repair Services</strong> with a focus on transparency, expertise, and exceptional customer service.</p>
+            <h3>What We Do</h3>
+            <p>We specialise in repairing a wide range of phone issues, including cracked screens, battery replacements, and more. Our technicians use state-of-the-art equipment and genuine parts to ensure that your device is restored to its original condition. We service all major brands, including Apple, Samsung, Google, and more.</p>
+            <h3>Why Choose Us?</h3>
+            <p><strong>Expert Technicians:</strong> Our skilled technicians are trained to handle the latest phone models and repair techniques, ensuring your device is in capable hands.</p>
+            <p><strong>Fast Turnaround:</strong> We understand the importance of your phone in your daily life, which is why we offer quick repairs for most issues.</p>
+            <p><strong>Quality Parts:</strong> We use only high-quality, genuine parts to guarantee the longevity and performance of your device.</p>
+            <p><strong>Customer Satisfaction:</strong> Our top priority is your satisfaction. We offer a warranty on all our repairs to give you peace of mind.</p>
+            <p><strong>Transparent Pricing:</strong> No hidden fees or surprises. We provide clear, upfront pricing so you know exactly what to expect.</p>
+            <h3>Our Values</h3>
+            <p>At <strong>Parajuli Phone Repair Services</strong>, we are guided by a set of core values that shape everything we do:</p>
+            <p><strong>Integrity:</strong> We believe in honest and transparent service. You can trust us to provide accurate diagnoses and fair pricing.</p>
+            <p><strong>Quality:</strong> We strive for excellence in every repair, ensuring that each device we fix meets the highest standards of quality.</p>
+            <p><strong>Customer-Centric:</strong> Your needs are at the forefront of our business. We listen to your concerns and tailor our services to meet your specific requirements.</p>
+            <p><strong>Innovation:</strong> Technology is constantly evolving, and so are we. We stay updated with the latest industry trends and repair techniques to provide the best possible service.</p>
+            <h3>Get in Touch</h3>
+            <p>Whether you need a quick screen fix, a battery replacement, or a more complex repair, <strong>Parajuli Phone Repair Services</strong> is here to help. Message us or book an appointment online to experience the best in phone repair services. Let us get your device back to perfect condition, so you can stay connected to what matters most.</p>
+            <p>Thank you for choosing <strong>Parajuli Phone Repair Services</strong>. We look forward to serving you!</p>
+         </div>
+      </section>
+      <!-- Our Services Section -->
+      <section id="services">
+         <h2>OUR SERVICES</h2>
+         <div class="image-grid">
+            <div class="image-row">
+               <div class="image-container">
+                  <!-- Placeholder for Image 1 -->
+                  <img src="broken_screen.png" alt="Service Image 1">
+                  <p><strong>Screen Replacement</strong></p>
+               </div>
+               <div class="image-container">
+                  <!-- Placeholder for Image 2 -->
+                  <img src="touchscreen_problems.png" alt="Service Image 2">
+                  <p><strong>Tochscreen Problems</strong></p>
+               </div>
+               <div class="image-container">
+                  <!-- Placeholder for Image 3 -->
+                  <img src="battery_replacement.png" alt="Service Image 3">
+                  <p><strong>Battery Replacement</strong></p>
+               </div>
             </div>
-            <div class="image-container">
-                <!-- Placeholder for Image 2 -->
-                <img src="touchscreen_problems.png" alt="Service Image 2">
-				<p><strong>Tochscreen Problems</strong></p>
+            <div class="image-row">
+               <div class="image-container">
+                  <!-- Placeholder for Image 4 -->
+                  <img src="charging_issue.png" alt="Service Image 4">
+                  <p><strong>Charging Issues</strong></p>
+               </div>
+               <div class="image-container">
+                  <!-- Placeholder for Image 5 -->
+                  <img src="bad_audio.png" alt="Service Image 5">
+                  <p><strong>Bad Audio</strong></p>
+               </div>
+               <div class="image-container">
+                  <!-- Placeholder for Image 6 -->
+                  <img src="screen_protector.png" alt="Service Image 6">
+                  <p><strong>Screen Protector</strong></p>
+               </div>
             </div>
-            <div class="image-container">
-                <!-- Placeholder for Image 3 -->
-                <img src="battery_replacement.png" alt="Service Image 3">
-				<p><strong>Battery Replacement</strong></p>
-            </div>
-        </div>
-        <div class="image-row">
-            <div class="image-container">
-                <!-- Placeholder for Image 4 -->
-                <img src="charging_issue.png" alt="Service Image 4">
-				<p><strong>Charging Issues</strong></p>
-            </div>
-            <div class="image-container">
-                <!-- Placeholder for Image 5 -->
-                <img src="bad_audio.png" alt="Service Image 5">
-				<p><strong>Bad Audio</strong></p>
-            </div>
-            <div class="image-container">
-                <!-- Placeholder for Image 6 -->
-                <img src="screen_protector.png" alt="Service Image 6">
-				<p><strong>Screen Protector</strong></p>
-            </div>
-        </div>
-    </div>
-</section>
-
-    <!-- Location Section with Google Map -->
-    <section id="location">
-        <h2>OUR LOCATION</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6625.478939193164!2d151.09276097666034!3d-33.8706045732259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12bad821a85573%3A0xa3ae4638fa053b9b!2s22%20Cooper%20St%2C%20Strathfield%20NSW%202135!5e0!3m2!1sen!2sau!4v1716031402630!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        <em><p>3 mins walk from Strathfield train station.</p></em>
-    </section>
-
-    <!-- Additional Location Details -->
-    <section id="additional-info">
-        <div class="location-details">
+         </div>
+      </section>
+      <!-- Location Section with Google Map -->
+      <section id="location">
+         <h2>OUR LOCATION</h2>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6625.478939193164!2d151.09276097666034!3d-33.8706045732259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12bad821a85573%3A0xa3ae4638fa053b9b!2s22%20Cooper%20St%2C%20Strathfield%20NSW%202135!5e0!3m2!1sen!2sau!4v1716031402630!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+         <em>
+            <p>3 mins walk from Strathfield train station.</p>
+         </em>
+      </section>
+      <!-- Additional Location Details -->
+      <section id="additional-info">
+         <div class="location-details">
             <div class="address-info col-md-4 mt">
-                <h2>ADDRESS</h2>
-                <p>22 Cooper Street, Strathfield NSW 2135</p>
+               <h2>ADDRESS</h2>
+               <p>22 Cooper Street, Strathfield NSW 2135</p>
             </div>
             <div class="contact-info col-md-4 mt">
-                <h2>CONTACT</h2>
-                <p><strong>Phone:</strong> <a href="tel:0432824972">0432824972</a></p>
+               <h2>CONTACT</h2>
+               <p><strong>Phone:</strong> <a href="tel:0432824972">0432824972</a></p>
             </div>
             <div class="opening-hours col-md-4 mt">
-                <h2>OPENING HOURS</h2>
-                <p>
-                    <strong>Mon</strong> 18:00 - 21:30<br>
-                    <strong>Tue</strong> 18:00 - 21:30<br>
-                    <strong>Wed</strong> 18:00 - 21:30<br>
-                    <strong>Thu</strong> 18:00 - 21:30<br>
-                    <strong>Fri</strong> 18:00 - 21:30<br>
-                </p>
+               <h2>OPENING HOURS</h2>
+               <p>
+                  <strong>Mon</strong> 18:00 - 21:30<br>
+                  <strong>Tue</strong> 18:00 - 21:30<br>
+                  <strong>Wed</strong> 18:00 - 21:30<br>
+                  <strong>Thu</strong> 18:00 - 21:30<br>
+                  <strong>Fri</strong> 18:00 - 21:30<br>
+               </p>
             </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2024 Parajuli Phone Repair Service. All rights reserved.</p>
-    </footer>
-    
-    <script src="js/script.js"></script>
-</body>
+         </div>
+      </section>
+      <!-- Footer -->
+      <footer>
+         <p>&copy; 2024 Parajuli Phone Repair Service. All rights reserved.</p>
+      </footer>
+      <script src="script.js"></script>
+   </body>
 </html>
