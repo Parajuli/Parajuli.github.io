@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parajuli Phone Repair Service</title>
+    <link rel="stylesheet" href="styles.css">
+	<link rel="icon" type="image/jpeg" href="logo.jpg">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-container">
+            <a href="https://parajuli.dev" class="logo"><img src="logo.jpg" alt="Logo"></a>
+            <div class="menu-toggle" id="menuToggle">
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+                <div class="hamburger"></div>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#get-quote">GET YOUR QUOTE</a></li>
+                <li><a href="#book-now"><strong>BOOK NOW</strong></a></li>
+                <li><a href="#about">ABOUT US</a></li>
+                <li><a href="#services">OUR SERVICES</a></li>
+                <li><a href="#location">OUR LOCATION</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Get Your Quote Section -->
+    <section id="get-quote">
+        <h2>GET YOUR FREE QUOTE</h2>
+        <form id="quoteForm">
+            <label for="deviceType">Device Type:</label>
+            <select id="deviceType" name="deviceType" required>
+                <option value="">Select a type</option>
+                <option value="iphone">Apple iPhone</option>
+                <option value="samsung">Samsung Galaxy</option>
+                <option value="ipad">Apple iPad</option>
+                <!-- Add more device types as needed -->
+            </select>
+
+            <label for="model">Device Model:</label>
+            <select id="model" name="model" required>
+                <option value="">Select a model</option>
+                <option value="iphone_11">iPhone 11</option>
+                <option value="iphone_12">iPhone 12</option>
+                <option value="samsung_s20">Samsung S20</option>
+                <option value="samsung_s21">Samsung S21</option>
+                <!-- Add more models as needed -->
+            </select>
+
+            <label for="issue">Issue:</label>
+            <select id="issue" name="issue" required>
+                <option value="">Select an issue</option>
+                <option value="screen_replacement">Screen Replacement</option>
+                <option value="battery_replacement">Battery Replacement</option>
+                <option value="water_damage">Water Damage</option>
+                <!-- Add more issues as needed -->
+            </select>
+
+            <label>Estimated Price:</label>
+            <span id="price"></span>
+        </form>
+    </section>
+
+    <section id="book-now">
+        <h2>BOOK NOW</h2>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe8e6awaixuSub7yIDiQd4nMr29lGmNHI5a7e3137pME6kLdg/viewform?embedded=true" width="640" height="2100" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </section>
+    
+<!-- About Us Section -->
+<section id="about">
+    <h2>ABOUT US</h2>
+    <div class="about-content">
+        <p>Welcome to <strong>Parajuli Phone Repair Services</strong>, your trusted partner for all your phone repair needs. Our mission is to provide reliable, efficient, and affordable repair services that keep you connected to the things that matter most.</p>
+
+        <h3>Our Story</h3>
+        <p><strong>Parajuli Phone Repair Services</strong> began with a simple idea: to offer high-quality repair services that everyone can trust. Our founders, tech enthusiasts with years of experience in the electronics industry, noticed a gap in the market for honest and dependable phone repair services. Determined to fill this gap, they established <strong>Parajuli Phone Repair Services</strong> with a focus on transparency, expertise, and exceptional customer service.</p>
+
+        <h3>What We Do</h3>
+        <p>We specialise in repairing a wide range of phone issues, including cracked screens, battery replacements, and more. Our technicians use state-of-the-art equipment and genuine parts to ensure that your device is restored to its original condition. We service all major brands, including Apple, Samsung, Google, and more.</p>
+
+        <h3>Why Choose Us?</h3>
+        <p><strong>Expert Technicians:</strong> Our skilled technicians are trained to handle the latest phone models and repair techniques, ensuring your device is in capable hands.</p>
+        <p><strong>Fast Turnaround:</strong> We understand the importance of your phone in your daily life, which is why we offer quick repairs for most issues.</p>
+        <p><strong>Quality Parts:</strong> We use only high-quality, genuine parts to guarantee the longevity and performance of your device.</p>
+        <p><strong>Customer Satisfaction:</strong> Our top priority is your satisfaction. We offer a warranty on all our repairs to give you peace of mind.</p>
+        <p><strong>Transparent Pricing:</strong> No hidden fees or surprises. We provide clear, upfront pricing so you know exactly what to expect.</p>
+
+        <h3>Our Values</h3>
+        <p>At <strong>Parajuli Phone Repair Services</strong>, we are guided by a set of core values that shape everything we do:</p>
+        <p><strong>Integrity:</strong> We believe in honest and transparent service. You can trust us to provide accurate diagnoses and fair pricing.</p>
+        <p><strong>Quality:</strong> We strive for excellence in every repair, ensuring that each device we fix meets the highest standards of quality.</p>
+        <p><strong>Customer-Centric:</strong> Your needs are at the forefront of our business. We listen to your concerns and tailor our services to meet your specific requirements.</p>
+        <p><strong>Innovation:</strong> Technology is constantly evolving, and so are we. We stay updated with the latest industry trends and repair techniques to provide the best possible service.</p>
+
+        <h3>Get in Touch</h3>
+        <p>Whether you need a quick screen fix, a battery replacement, or a more complex repair, <strong>Parajuli Phone Repair Services</strong> is here to help. Message us or book an appointment online to experience the best in phone repair services. Let us get your device back to perfect condition, so you can stay connected to what matters most.</p>
+        
+        <p>Thank you for choosing <strong>Parajuli Phone Repair Services</strong>. We look forward to serving you!</p>
+    </div>
+</section>
+
+
+	
+	    <!-- Our Services Section -->
+    <section id="services">
+    <h2>OUR SERVICES</h2>
+    <div class="image-grid">
+        <div class="image-row">
+            <div class="image-container">
+                <!-- Placeholder for Image 1 -->
+                <img src="broken_screen.png" alt="Service Image 1">
+				<p><strong>Screen Replacement</strong></p>
+            </div>
+            <div class="image-container">
+                <!-- Placeholder for Image 2 -->
+                <img src="touchscreen_problems.png" alt="Service Image 2">
+				<p><strong>Tochscreen Problems</strong></p>
+            </div>
+            <div class="image-container">
+                <!-- Placeholder for Image 3 -->
+                <img src="battery_replacement.png" alt="Service Image 3">
+				<p><strong>Battery Replacement</strong></p>
+            </div>
+        </div>
+        <div class="image-row">
+            <div class="image-container">
+                <!-- Placeholder for Image 4 -->
+                <img src="charging_issue.png" alt="Service Image 4">
+				<p><strong>Charging Issues</strong></p>
+            </div>
+            <div class="image-container">
+                <!-- Placeholder for Image 5 -->
+                <img src="bad_audio.png" alt="Service Image 5">
+				<p><strong>Bad Audio</strong></p>
+            </div>
+            <div class="image-container">
+                <!-- Placeholder for Image 6 -->
+                <img src="screen_protector.png" alt="Service Image 6">
+				<p><strong>Screen Protector</strong></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Location Section with Google Map -->
+    <section id="location">
+        <h2>OUR LOCATION</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6625.478939193164!2d151.09276097666034!3d-33.8706045732259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12bad821a85573%3A0xa3ae4638fa053b9b!2s22%20Cooper%20St%2C%20Strathfield%20NSW%202135!5e0!3m2!1sen!2sau!4v1716031402630!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <em><p>3 mins walk from Strathfield train station.</p></em>
+    </section>
+
+    <!-- Additional Location Details -->
+    <section id="additional-info">
+        <div class="location-details">
+            <div class="address-info col-md-4 mt">
+                <h2>ADDRESS</h2>
+                <p>22 Cooper Street, Strathfield NSW 2135</p>
+            </div>
+            <div class="contact-info col-md-4 mt">
+                <h2>CONTACT</h2>
+                <p><strong>Phone:</strong> <a href="tel:0432824972">0432824972</a></p>
+            </div>
+            <div class="opening-hours col-md-4 mt">
+                <h2>OPENING HOURS</h2>
+                <p>
+                    <strong>Mon</strong> 18:00 - 21:30<br>
+                    <strong>Tue</strong> 18:00 - 21:30<br>
+                    <strong>Wed</strong> 18:00 - 21:30<br>
+                    <strong>Thu</strong> 18:00 - 21:30<br>
+                    <strong>Fri</strong> 18:00 - 21:30<br>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Parajuli Phone Repair Service. All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
