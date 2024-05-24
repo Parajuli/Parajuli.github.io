@@ -676,7 +676,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_service': 150,
                 'front_camera': 150,
                 'rear_camera': 150,
-                'back_glass_replacement': 100,
+                'back_glass_replacement': 100
             },
             'samsung_a33_5g': {
                 'screen_replacement': 200,
@@ -942,7 +942,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_service': 90
             }
         },
-
         'ipad': {
             'ipad_5': {
                 'screen_replacement': 180,
@@ -1091,7 +1090,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 		return words.join(' ');
 	}
-
 
     function updatePrice() {
         const selectedDeviceType = deviceTypeSelect.value;
