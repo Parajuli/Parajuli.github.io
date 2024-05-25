@@ -207,8 +207,8 @@ button:hover {
 /* Make iframes responsive on mobile */
 @media (max-width: 768px) {
     iframe {
-        width: 100%; /* Make it take the full width */
 	height: 2100px;
+        width: 100%; /* Make it take the full width */
     }
 
     #book-now {
