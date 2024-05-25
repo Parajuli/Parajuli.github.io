@@ -54,13 +54,13 @@ nav {
 
 /* Responsive iframe styles */
 @media (max-width: 768px) {
-#iframe-container iframe#bookingForm {
-    height: 2100px; /* Ensure full height on mobile devices */
-}
+    #iframe-container iframe#bookingForm {
+        height: 2100px; /* Ensure full height on mobile devices */
+    }
 
-#iframe-container iframe#googleMap {
-    height: 450px; /* Ensure map height is maintained on mobile devices */
-}
+    #iframe-container iframe#googleMap {
+        height: 450px; /* Ensure map height is maintained on mobile devices */
+    }
 	
 .nav-links {
     list-style: none;
