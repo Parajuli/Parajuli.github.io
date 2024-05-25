@@ -204,6 +204,17 @@ button:hover {
     font-weight: bold;
 }
 
+/* Make iframes responsive on mobile */
+@media (max-width: 768px) {
+    iframe {
+        width: 100%; /* Make it take the full width */
+    }
+
+    #book-now {
+        min-height: 2100px; /* Ensure the section height matches the iframe height */
+    }
+}
+
 .image-grid {
     display: flex;
     flex-wrap: wrap;
