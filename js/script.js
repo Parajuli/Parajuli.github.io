@@ -93,10 +93,6 @@ document.addEventListener('DOMContentLoaded', function() {
             {
                 value: "rear_camera",
                 label: "Rear/Main Camera"
-            },
-            {
-                value: "back_glass_replacement",
-                label: "Back Glass Replacement"
             }
         ],
         'samsung_note': [{
