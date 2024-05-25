@@ -38,29 +38,23 @@ nav {
     margin: 4px 0;
 }
 
-/* Styles for iframes */
-#iframe-container iframe {
+/* Styles for iframe containers to ensure they are responsive */
+.iframe-container {
     width: 100%;
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     border: 0;
 }
-
-#iframe-container iframe#bookingForm {
-    height: 2100px; /* Adjust height for full display of the Google Form */
-}
-
-#iframe-container iframe#googleMap {
-    height: 450px; /* Adjust height as needed for the Google Map */
-}
-
-/* Responsive iframe styles */
-@media (max-width: 768px) {
-    #iframe-container iframe#bookingForm {
-        height: 2100px; /* Ensure full height on mobile devices */
-    }
-
-    #iframe-container iframe#googleMap {
-        height: 450px; /* Ensure map height is maintained on mobile devices */
-    }
 	
 .nav-links {
     list-style: none;
