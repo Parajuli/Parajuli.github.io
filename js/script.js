@@ -518,8 +518,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_replacement': 150,
                 'charging_port_service': 150,
                 'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'rear_camera': 150
             },
             'samsung_a12': {
                 'screen_replacement': 200,
@@ -527,8 +526,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_replacement': 150,
                 'charging_port_service': 150,
                 'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'rear_camera': 150
             },
             'samsung_a13_4g': {
                 'screen_replacement': 200,
@@ -536,8 +534,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_replacement': 150,
                 'charging_port_service': 150,
                 'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'rear_camera': 150
             },
             'samsung_a13_5g': {
                 'screen_replacement': 200,
@@ -545,8 +542,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_replacement': 150,
                 'charging_port_service': 150,
                 'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'rear_camera': 150
             },
             'samsung_a14_4g': {
                 'screen_replacement': 200,
@@ -554,8 +550,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_replacement': 150,
                 'charging_port_service': 150,
                 'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'rear_camera': 150
             },
             'samsung_a14_5g': {
                 'screen_replacement': 200,
@@ -563,8 +558,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_replacement': 150,
                 'charging_port_service': 150,
                 'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'rear_camera': 150
             },
             'samsung_a15': {
                 'screen_replacement': 200,
@@ -572,8 +566,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_replacement': 150,
                 'charging_port_service': 150,
                 'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'rear_camera': 150
             },
             'samsung_a20': {
                 'screen_replacement': 200,
@@ -581,8 +574,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_replacement': 150,
                 'charging_port_service': 150,
                 'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'rear_camera': 150
             },
             'samsung_a21': {
                 'screen_replacement': 200,
@@ -590,8 +582,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_replacement': 150,
                 'charging_port_service': 150,
                 'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'rear_camera': 150
             },
             'samsung_a21s': {
                 'screen_replacement': 200,
@@ -599,8 +590,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_replacement': 150,
                 'charging_port_service': 150,
                 'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'rear_camera': 150
             },
             'samsung_a22_4g': {
                 'screen_replacement': 200,
@@ -608,8 +598,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_replacement': 150,
                 'charging_port_service': 150,
                 'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'rear_camera': 150
             },
             'samsung_a22_5g': {
                 'screen_replacement': 200,
@@ -617,8 +606,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_replacement': 150,
                 'charging_port_service': 150,
                 'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'rear_camera': 150
             },
             'samsung_a23': {
                 'screen_replacement': 200,
@@ -626,8 +614,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_replacement': 150,
                 'charging_port_service': 150,
                 'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'rear_camera': 150
             },
             'samsung_a30': {
                 'screen_replacement': 200,
@@ -635,8 +622,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_replacement': 150,
                 'charging_port_service': 150,
                 'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'rear_camera': 150
             },
             'samsung_a30s': {
                 'screen_replacement': 200,
@@ -644,8 +630,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_replacement': 150,
                 'charging_port_service': 150,
                 'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'rear_camera': 150
             },
             'samsung_a31': {
                 'screen_replacement': 200,
@@ -653,8 +638,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_replacement': 150,
                 'charging_port_service': 150,
                 'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'rear_camera': 150
             },
             'samsung_a32_4g': {
                 'screen_replacement': 200,
@@ -662,8 +646,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_replacement': 150,
                 'charging_port_service': 150,
                 'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'rear_camera': 150
             },
             'samsung_a32_5g': {
                 'screen_replacement': 200,
@@ -671,8 +654,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_replacement': 150,
                 'charging_port_service': 150,
                 'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'rear_camera': 150
             },
             'samsung_a33_5g': {
                 'screen_replacement': 200,
@@ -680,8 +662,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_replacement': 150,
                 'charging_port_service': 150,
                 'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'rear_camera': 150
             },
             'samsung_a40': {
                 'screen_replacement': 200,
@@ -689,8 +670,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_replacement': 150,
                 'charging_port_service': 150,
                 'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'rear_camera': 150
             },
             'samsung_a42': {
                 'screen_replacement': 200,
@@ -698,8 +678,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_replacement': 150,
                 'charging_port_service': 150,
                 'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'rear_camera': 150
             },
             'samsung_a50': {
                 'screen_replacement': 200,
@@ -707,8 +686,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_replacement': 150,
                 'charging_port_service': 150,
                 'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'rear_camera': 150
             },
             'samsung_a50s': {
                 'screen_replacement': 200,
@@ -716,8 +694,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_replacement': 150,
                 'charging_port_service': 150,
                 'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'rear_camera': 150
             },
             'samsung_a51_4g': {
                 'screen_replacement': 200,
@@ -725,8 +702,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_replacement': 150,
                 'charging_port_service': 150,
                 'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'rear_camera': 150
             },
             'samsung_a51_5g': {
                 'screen_replacement': 200,
@@ -734,8 +710,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_replacement': 150,
                 'charging_port_service': 150,
                 'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'rear_camera': 150
             },
             'samsung_a52': {
                 'screen_replacement': 200,
@@ -743,8 +718,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_replacement': 150,
                 'charging_port_service': 150,
                 'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'rear_camera': 150
             },
             'samsung_a52s': {
                 'screen_replacement': 200,
@@ -752,8 +726,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_replacement': 150,
                 'charging_port_service': 150,
                 'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'rear_camera': 150
             },
             'samsung_a52_5g': {
                 'screen_replacement': 200,
@@ -761,8 +734,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_replacement': 150,
                 'charging_port_service': 150,
                 'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'rear_camera': 150
             },
             'samsung_a53_5g': {
                 'screen_replacement': 200,
@@ -770,8 +742,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_replacement': 150,
                 'charging_port_service': 150,
                 'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'rear_camera': 150
             },
             'samsung_a54_5g': {
                 'screen_replacement': 200,
@@ -779,8 +750,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_replacement': 150,
                 'charging_port_service': 150,
                 'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'rear_camera': 150
             },
             'samsung_a70': {
                 'screen_replacement': 200,
@@ -788,8 +758,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_replacement': 150,
                 'charging_port_service': 150,
                 'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'rear_camera': 150
             },
             'samsung_a71_4g': {
                 'screen_replacement': 200,
@@ -797,8 +766,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_replacement': 150,
                 'charging_port_service': 150,
                 'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'rear_camera': 150
             },
             'samsung_a71_5g': {
                 'screen_replacement': 200,
@@ -806,8 +774,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_replacement': 150,
                 'charging_port_service': 150,
                 'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'rear_camera': 150
             },
             'samsung_a72_4g': {
                 'screen_replacement': 200,
@@ -815,8 +782,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_replacement': 150,
                 'charging_port_service': 150,
                 'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'rear_camera': 150
             },
             'samsung_a72_5g': {
                 'screen_replacement': 200,
@@ -824,8 +790,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'charging_port_replacement': 150,
                 'charging_port_service': 150,
                 'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'rear_camera': 150
             }
         },
         'samsung_note': {
