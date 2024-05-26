@@ -80,7 +80,8 @@ nav {
 }
 
 .logo img {
-    width: 45px; /* Adjust the width as needed */
+    width: 35px; /* Adjust the width as needed */
+    padding-top: 5px;
     height: auto; /* Maintain aspect ratio */
     border-radius: 5px; /* Adjust the border radius as desired */
 }
