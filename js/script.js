@@ -869,12 +869,24 @@ document.addEventListener('DOMContentLoaded', function() {
                 'screen_replacement': 180,
                 'charging_port_service': 90
             },
+	    'pixel_3_xl': {
+                'screen_replacement': 180,
+                'charging_port_service': 90
+            },
             'pixel_3a': {
+                'screen_replacement': 200,
+                'charging_port_service': 90
+            },
+            'pixel_3a_xl': {
                 'screen_replacement': 200,
                 'charging_port_service': 90
             },
             'pixel_4': {
                 'screen_replacement': 180,
+                'charging_port_service': 90
+            },
+	    'pixel_4_xl': {
+                'screen_replacement': 200,
                 'charging_port_service': 90
             },
             'pixel_4a': {
