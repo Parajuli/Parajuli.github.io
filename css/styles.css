@@ -38,6 +38,15 @@ nav {
     margin: 4px 0;
 }
 
+/* Active state for hamburger menu */
+.menu-toggle.active .hamburger:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-toggle.active .hamburger:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
 .nav-links {
     list-style: none;
     display: flex;
