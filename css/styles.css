@@ -188,19 +188,32 @@ button:hover {
     font-weight: bold;
 }
 
-/* Ensure the Book Now section is tall enough on mobile */
-#book-now {
-    height: 2200px; /* Adjusted height */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; /* Added to align content vertically */
-}
+/* Make iframes responsive on mobile */
+@media (max-width: 768px) {
+    .iframe-container {
+        width: 100%;
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+        height: 0;
+        overflow: hidden;
+    }
 
-#book-now h2 {
-    margin-bottom: 20px; /* Adjust as needed */
-}
+    .iframe-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
 
+    /* Ensure iframes are fully expanded */
+    #book-now iframe,
+    #location iframe {
+        width: 100%;
+        height: 100%;
+    }
+}
 
 .image-grid {
     display: flex;
