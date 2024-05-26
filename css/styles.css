@@ -63,8 +63,8 @@ nav {
 
 .logo img {
     width: 35px; /* Adjust the width as needed */
-    padding-top: 7px;
-    padding-left: 5px;
+	padding-top: 7px;
+	padding-le: 5px;
     height: auto; /* Maintain aspect ratio */
 }
 
