@@ -193,7 +193,7 @@ button:hover {
         width: 100%;
         position: relative;
         padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-        height: 0;
+        height: auto;
         overflow: hidden;
     }
 
