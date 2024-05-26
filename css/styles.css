@@ -66,7 +66,6 @@ nav {
     padding-top: 7px;
     padding-left: 5px;
     height: auto; /* Maintain aspect ratio */
-    border-radius: 5px; /* Adjust the border radius as desired */
 }
 
 /* Responsive styles */
