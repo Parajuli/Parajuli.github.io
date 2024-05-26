@@ -965,7 +965,7 @@ document.addEventListener('DOMContentLoaded', function() {
             'air_4': {
                 'lcd_display_replacement': 260
             },
-            'air_5_2022': {
+            'air_5': {
                 'lcd_display_replacement': 270
             }
 	},
@@ -976,14 +976,17 @@ document.addEventListener('DOMContentLoaded', function() {
             'pro_10.5': {
                 'lcd_display_replacement': 280
             },
-            'pro_11_1st_gen_2018': {
+            'pro_11_2018': {
                 'lcd_display_replacement': 360
             },
-            'pro_11_2nd_gen_2020': {
+            'pro_11_2020': {
                 'lcd_display_replacement': 360
             },
-            'pro_11_3rd_gen': {
+            'pro_11_2021': {
                 'lcd_display_replacement': 380
+            },
+	    'pro_11_2022': {
+            	'lcd_display_replacement': 380
             },
             'pro_12.9_2015': {
                 'lcd_display_replacement': 370
