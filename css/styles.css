@@ -207,12 +207,12 @@ button:hover {
     }
 
     /* Ensure iframes are fully expanded */
-    #book-now iframe,
-    #location iframe {
+    .iframe-container iframe {
         width: 100%;
         height: 100%;
     }
 }
+
 
 .image-grid {
     display: flex;
