@@ -43,7 +43,7 @@ nav {
     transform: rotate(45deg) translate(5px, 5px);
 }
 
-.menu-toggle.active .hamburger:nth-child(3) {
+.menu-toggle.active .hamburger:nth-child(2) {
     transform: rotate(-45deg) translate(5px, -5px);
 }
 
