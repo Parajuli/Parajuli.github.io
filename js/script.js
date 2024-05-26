@@ -866,68 +866,72 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         'pixel': {
             'pixel_3': {
-                'screen_replacement': 180,
-                'charging_port_service': 90
+                'screen_replacement': 230,
+                'charging_port_service': 30
             },
 	    'pixel_3_xl': {
-                'screen_replacement': 180,
-                'charging_port_service': 90
+                'screen_replacement': 240,
+                'charging_port_service': 30
             },
             'pixel_3a': {
                 'screen_replacement': 200,
-                'charging_port_service': 90
+                'charging_port_service': 30
             },
             'pixel_3a_xl': {
-                'screen_replacement': 200,
-                'charging_port_service': 90
+                'screen_replacement': 210,
+                'charging_port_service': 30
             },
             'pixel_4': {
                 'screen_replacement': 180,
-                'charging_port_service': 90
+                'charging_port_service': 30
             },
 	    'pixel_4_xl': {
-                'screen_replacement': 200,
-                'charging_port_service': 90
+                'screen_replacement': 230,
+                'charging_port_service': 30
             },
             'pixel_4a': {
-                'screen_replacement': 200,
-                'charging_port_service': 90
+                'screen_replacement': 290,
+                'charging_port_service': 30
             },
             'pixel_5': {
-                'screen_replacement': 180,
-                'charging_port_service': 90
+                'screen_replacement': 360,
+                'charging_port_service': 30
             },
-            'pixel_6_pro': {
-                'screen_replacement': 200,
-                'charging_port_service': 90
+	    'pixel_5a': {
+                'screen_replacement': 300,
+                'charging_port_service': 30
             },
             'pixel_6': {
-                'screen_replacement': 180,
-                'charging_port_service': 90
+                'screen_replacement': 320,
+                'charging_port_service': 30
             },
             'pixel_6a': {
-                'screen_replacement': 200,
-                'charging_port_service': 90
+                'screen_replacement': 350,
+                'charging_port_service': 30
             },
-            'pixel_7_pro': {
-                'screen_replacement': 180,
-                'charging_port_service': 90
+	    'pixel_6_pro': {
+                'screen_replacement': 270,
+                'charging_port_service': 30
             },
             'pixel_7': {
-                'screen_replacement': 200,
-                'charging_port_service': 90
+                'screen_replacement': 350,
+                'charging_port_service': 30
             },
             'pixel_7a': {
-                'screen_replacement': 180,
-                'charging_port_service': 90
+                'screen_replacement': 270,
+                'charging_port_service': 30
+            },
+	   'pixel_7_pro': {
+                'screen_replacement': 280,
+                'charging_port_service': 30
             },
             'pixel_8': {
-                'screen_replacement': 200,
-                'charging_port_service': 90
+                'screen_replacement': 430,
+                'charging_port_service': 30
             },
             'pixel_8_pro': {
-                'screen_replacement': 180,
-                'charging_port_service': 90
+                'screen_replacement': 450,
+                'charging_port_service': 30
             }
         },
         'ipad': {
