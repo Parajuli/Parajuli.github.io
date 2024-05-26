@@ -226,7 +226,6 @@ button:hover {
 #book-now iframe {
     height: 100%;
     width: 100%;
-    max-width: 800px; /* Match the width to other sections */
 }
 
 .image-grid {
