@@ -905,64 +905,64 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         'ipad': {
             'ipad_5': {
-                'screen_replacement': 180,
-                'lcd_replacement': 90
+                'screen_replacement': 100,
+                'lcd_replacement': 150
             },
             'ipad_6': {
-                'screen_replacement': 180,
-                'lcd_replacement': 90
+                'screen_replacement': 100,
+                'lcd_replacement': 150
             },
             'ipad_7': {
-                'screen_replacement': 180,
-                'lcd_replacement': 90
+                'screen_replacement': 120,
+                'lcd_replacement': 160
             },
             'ipad_8': {
-                'screen_replacement': 180,
-                'lcd_replacement': 90
+                'screen_replacement': 120,
+                'lcd_replacement': 170
             },
             'ipad_9': {
-                'screen_replacement': 180,
-                'lcd_replacement': 90
+                'screen_replacement': 120,
+                'lcd_replacement': 170
             },
             'ipad_10': {
-                'screen_replacement': 180,
-                'lcd_replacement': 90
+                'screen_replacement': 0,
+                'lcd_replacement': 0
             },
             'mini_4': {
-                'screen_replacement': 180,
-                'lcd_replacement': 90
+                'screen_replacement': 200,
+                'lcd_replacement': 200
             },
             'mini_5': {
-                'screen_replacement': 180,
-                'lcd_replacement': 90
+                'screen_replacement': 220,
+                'lcd_replacement': 220
             },
             'mini_6': {
-                'screen_replacement': 180,
-                'lcd_replacement': 90
+                'screen_replacement': 0,
+                'lcd_replacement': 0
             },
             'air_1': {
-                'screen_replacement': 180,
-                'lcd_replacement': 90
+                'screen_replacement': 100,
+                'lcd_replacement': 120
             },
             'air_2': {
                 'screen_replacement': 180,
-                'lcd_replacement': 90
+                'lcd_replacement': 180
             },
             'air_3': {
-                'screen_replacement': 180,
-                'lcd_replacement': 90
+                'screen_replacement': 250,
+                'lcd_replacement': 250
             },
             'air_4': {
-                'screen_replacement': 180,
-                'lcd_replacement': 90
+                'screen_replacement': 260,
+                'lcd_replacement': 260
             },
             'air_5_2022': {
-                'screen_replacement': 180,
-                'lcd_replacement': 90
+                'screen_replacement': 270,
+                'lcd_replacement': 270
             },
             'pro_9.7': {
-                'screen_replacement': 180,
-                'lcd_replacement': 90
+                'screen_replacement': 240,
+                'lcd_replacement': 240
             },
             'pro_10.5': {
                 'screen_replacement': 180,
