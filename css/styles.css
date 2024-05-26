@@ -202,8 +202,7 @@ button:hover {
     box-sizing: border-box; /* Include padding in width */
 }
 
-#book-now iframe,
-#location iframe {
+#book-now iframe {
     width: 100%;
     max-width: 768px; /* Match the width to other sections */
     height: 2200px; /* Height of the Google Form */
