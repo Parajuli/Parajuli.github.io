@@ -1049,6 +1049,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			'xs': 'XS',
 			'max': 'MAX',
 			'xr': 'XR',
+			'xl': 'XL',
 			'fe': 'FE',
 			'4g': '4G',
 			'5g': '5G'
