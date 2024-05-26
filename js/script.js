@@ -142,6 +142,21 @@ document.addEventListener('DOMContentLoaded', function() {
                 label: "LCD Replacement"
             }
         ],
+	'ipad_mini': [{
+		value: "lcd_display_replacement",
+                label: "LCD Display Replacement"
+            }
+        ],
+	'ipad_air': [{
+                value: "lcd_display_replacement",
+                label: "LCD Display Replacement"
+            }
+        ],
+	'ipad_pro': [{
+                value: "lcd_display_replacement",
+                label: "LCD Display Replacement"
+            }
+        ],
     };
 
     const prices = {
@@ -927,78 +942,63 @@ document.addEventListener('DOMContentLoaded', function() {
             'ipad_10': {
                 'screen_replacement': 0,
                 'lcd_replacement': 0
-            },
+            }
+	},
+	'ipad_mini': {
             'mini_4': {
-                'screen_replacement': 200,
-                'lcd_replacement': 200
+                'lcd_display_replacement': 200
             },
             'mini_5': {
-                'screen_replacement': 220,
-                'lcd_replacement': 220
+                'lcd_display_replacement': 220
             },
             'mini_6': {
-                'screen_replacement': 0,
-                'lcd_replacement': 0
-            },
-            'air_1': {
-                'screen_replacement': 100,
-                'lcd_replacement': 120
-            },
+                'lcd_display_replacement': 0
+            }
+	},
+	'ipad_air': {
             'air_2': {
-                'screen_replacement': 180,
-                'lcd_replacement': 180
+                'lcd_display_replacement': 180
             },
             'air_3': {
-                'screen_replacement': 250,
-                'lcd_replacement': 250
+                'lcd_display_replacement': 250
             },
             'air_4': {
-                'screen_replacement': 260,
-                'lcd_replacement': 260
+                'lcd_display_replacement': 260
             },
             'air_5_2022': {
-                'screen_replacement': 270,
-                'lcd_replacement': 270
-            },
+                'lcd_display_replacement': 270
+            }
+	},
+	'ipad_pro': {
             'pro_9.7': {
-                'screen_replacement': 240,
-                'lcd_replacement': 240
+                'lcd_display_replacement': 240
             },
             'pro_10.5': {
-                'screen_replacement': 180,
-                'lcd_replacement': 90
+                'lcd_display_replacement': 280
             },
             'pro_11_1st_gen_2018': {
-                'screen_replacement': 180,
-                'lcd_replacement': 90
+                'lcd_display_replacement': 360
             },
             'pro_11_2nd_gen_2020': {
-                'screen_replacement': 180,
-                'lcd_replacement': 90
+                'lcd_display_replacement': 360
             },
             'pro_11_3rd_gen': {
-                'screen_replacement': 180,
-                'lcd_replacement': 90
+                'lcd_display_replacement': 380
             },
             'pro_12.9_2015': {
-                'screen_replacement': 180,
-                'lcd_replacement': 90
+                'lcd_display_replacement': 370
             },
             'pro_12.9_2018': {
-                'screen_replacement': 180,
-                'lcd_replacement': 90
+                'lcd_display_replacement': 350
             },
             'pro_12.9_2020': {
-                'screen_replacement': 180,
-                'lcd_replacement': 90
+                'lcd_display_replacement': 360
             },
             'pro_12.9_2021': {
-                'screen_replacement': 180,
-                'lcd_replacement': 90
+                'lcd_display_replacement': 400
             },
             'pro_12.9_2022': {
-                'screen_replacement': 180,
-                'lcd_replacement': 90
+                'lcd_display_replacement': 400
             }
         }
     };
