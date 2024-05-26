@@ -41,11 +41,11 @@ nav {
 
 /* Active state for hamburger menu */
 .menu-toggle.active .hamburger:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 5px);
+    transform: rotate(45deg) translate(4px, 4px);
 }
 
 .menu-toggle.active .hamburger:nth-child(2) {
-    transform: rotate(-45deg) translate(5px, -5px);
+    transform: rotate(-45deg) translate(4px, -4px);
 }
 
 .nav-links {
