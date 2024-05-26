@@ -61,12 +61,17 @@ nav {
     border-radius: 4px;
 }
 
-.logo img {
+.logo {
     width: 35px; /* Adjust the width as needed */
-	padding-top: 7px;
-	padding-le: 5px;
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 5px; /* Adjust the border radius as desired */
+    height: 35px; /* Adjust the height as needed */
+    border-radius: 5px; /* Adjust the border radius for rounded corners */
+    overflow: hidden; /* Ensure the image fits within the container */
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the container */
 }
 
 /* Responsive styles */
