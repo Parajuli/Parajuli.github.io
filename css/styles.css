@@ -188,6 +188,20 @@ button:hover {
     font-weight: bold;
 }
 
+/* Ensure the Book Now section is tall enough on mobile */
+#book-now {
+    height: 2200px; /* Adjusted height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Added to align content vertically */
+}
+
+#book-now h2 {
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+
 .image-grid {
     display: flex;
     flex-wrap: wrap;
