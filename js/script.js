@@ -345,7 +345,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'screen_replacement_aftermarket': 250,
                 'screen_replacement_premium': 550,
                 'battery_replacement': 100,
-                'charging_port_service': 30,
+                'charging_port_service': 20,
                 'front_camera': 100,
                 'rear_camera': 250,
                 'camera_lens': 50,
@@ -355,7 +355,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'screen_replacement_aftermarket': 300,
                 'screen_replacement_premium': 600,
                 'battery_replacement': 100,
-                'charging_port_service': 30,
+                'charging_port_service': 20,
                 'front_camera': 100,
                 'rear_camera': 250,
                 'camera_lens': 50,
@@ -366,8 +366,8 @@ document.addEventListener('DOMContentLoaded', function() {
             'samsung_s10e': {
                 'screen_replacement': 260,
                 'battery_replacement': 60,
-                'charging_port_replacement': 50,
-                'charging_port_service': 30,
+                'charging_port_replacement': 60,
+                'charging_port_service': 20,
                 'front_camera': 60,
                 'rear_camera': 90,
                 'back_glass_replacement': 50
@@ -375,8 +375,8 @@ document.addEventListener('DOMContentLoaded', function() {
             'samsung_s10': {
                 'screen_replacement': 360,
                 'battery_replacement': 60,
-                'charging_port_replacement': 50,
-                'charging_port_service': 30,
+                'charging_port_replacement': 60,
+                'charging_port_service': 20,
                 'front_camera': 60,
                 'rear_camera': 90,
                 'back_glass_replacement': 50
@@ -385,7 +385,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'screen_replacement': 400,
                 'battery_replacement': 60,
                 'charging_port_replacement': 60,
-                'charging_port_service': 30,
+                'charging_port_service': 20,
                 'front_camera': 60,
                 'rear_camera': 90,
                 'back_glass_replacement': 50
@@ -812,8 +812,8 @@ document.addEventListener('DOMContentLoaded', function() {
             'samsung_note_8': {
                 'screen_replacement': 360,
                 'battery_replacement': 50,
-                'charging_port_replacement': 50,
-                'charging_port_service': 30,
+                'charging_port_replacement': 60,
+                'charging_port_service': 20,
                 'front_camera': 60,
                 'rear_camera': 80,
                 'back_glass_replacement': 50
@@ -821,8 +821,8 @@ document.addEventListener('DOMContentLoaded', function() {
             'samsung_note_9': {
                 'screen_replacement': 380,
                 'battery_replacement': 50,
-                'charging_port_replacement': 50,
-                'charging_port_service': 30,
+                'charging_port_replacement': 60,
+                'charging_port_service': 20,
                 'front_camera': 60,
                 'rear_camera': 90,
                 'back_glass_replacement': 50
@@ -830,8 +830,8 @@ document.addEventListener('DOMContentLoaded', function() {
             'samsung_note_10': {
                 'screen_replacement': 390,
                 'battery_replacement': 50,
-                'charging_port_replacement': 50,
-                'charging_port_service': 30,
+                'charging_port_replacement': 60,
+                'charging_port_service': 20,
                 'front_camera': 60,
                 'rear_camera': 90,
                 'back_glass_replacement': 50
@@ -839,8 +839,8 @@ document.addEventListener('DOMContentLoaded', function() {
             'samsung_note_10_plus': {
                 'screen_replacement': 450,
                 'battery_replacement': 50,
-                'charging_port_replacement': 50,
-                'charging_port_service': 30,
+                'charging_port_replacement': 60,
+                'charging_port_service': 20,
                 'front_camera': 60,
                 'rear_camera': 90,
                 'back_glass_replacement': 50
@@ -848,8 +848,8 @@ document.addEventListener('DOMContentLoaded', function() {
             'samsung_note_20': {
                 'screen_replacement': 370,
                 'battery_replacement': 60,
-                'charging_port_replacement': 50,
-                'charging_port_service': 30,
+                'charging_port_replacement': 60,
+                'charging_port_service': 20,
                 'front_camera': 60,
                 'rear_camera': 90,
                 'back_glass_replacement': 60
@@ -857,8 +857,8 @@ document.addEventListener('DOMContentLoaded', function() {
             'samsung_note_20_ultra': {
                 'screen_replacement': 430,
                 'battery_replacement': 70,
-                'charging_port_replacement': 50,
-                'charging_port_service': 30,
+                'charging_port_replacement': 60,
+                'charging_port_service': 20,
                 'front_camera': 60,
                 'rear_camera': 90,
                 'back_glass_replacement': 60
