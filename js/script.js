@@ -1051,7 +1051,6 @@ document.addEventListener('DOMContentLoaded', function() {
 			'ipad': 'iPad',
 			'se': 'SE',
 			'xs': 'XS',
-			'max': 'MAX',
 			'xr': 'XR',
 			'xl': 'XL',
 			'fe': 'FE',
