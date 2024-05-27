@@ -415,7 +415,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'back_glass_replacement': 50
             },
             'samsung_s20': {
-                'screen_replacement': 390,
+                'screen_replacement': 400,
                 'battery_replacement': 70,
                 'charging_port_replacement': 70,
                 'charging_port_service': 20,
@@ -434,138 +434,138 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             'samsung_s20_fe': {
                 'screen_replacement': 250,
-                'battery_replacement': 100,
-                'charging_port_replacement': 150,
-                'charging_port_service': 150,
-                'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'battery_replacement': 60,
+                'charging_port_replacement': 60,
+                'charging_port_service': 20,
+                'front_camera': 70,
+                'rear_camera': 100,
+                'back_glass_replacement': 50
             },
             'samsung_s20_ultra': {
-                'screen_replacement': 200,
-                'battery_replacement': 100,
-                'charging_port_replacement': 150,
-                'charging_port_service': 150,
-                'front_camera': 150,
+                'screen_replacement': 400,
+                'battery_replacement': 70,
+                'charging_port_replacement': 70,
+                'charging_port_service': 20,
+                'front_camera': 70,
                 'rear_camera': 150,
-                'back_glass_replacement': 100
+                'back_glass_replacement': 60
             },
             'samsung_s21': {
-                'screen_replacement': 200,
-                'battery_replacement': 100,
-                'charging_port_replacement': 150,
-                'charging_port_service': 150,
-                'front_camera': 150,
+                'screen_replacement': 350,
+                'battery_replacement': 70,
+                'charging_port_replacement': 70,
+                'charging_port_service': 20,
+                'front_camera': 70,
                 'rear_camera': 150,
-                'back_glass_replacement': 100
+                'back_glass_replacement': 60
             },
             'samsung_s21_fe': {
-                'screen_replacement': 200,
-                'battery_replacement': 100,
-                'charging_port_replacement': 150,
-                'charging_port_service': 150,
-                'front_camera': 150,
+                'screen_replacement': 300,
+                'battery_replacement': 70,
+                'charging_port_replacement': 70,
+                'charging_port_service': 20,
+                'front_camera': 70,
                 'rear_camera': 150,
-                'back_glass_replacement': 100
+                'back_glass_replacement': 60
             },
             'samsung_s21_plus': {
-                'screen_replacement': 200,
-                'battery_replacement': 100,
-                'charging_port_replacement': 150,
-                'charging_port_service': 150,
-                'front_camera': 150,
+                'screen_replacement': 350,
+                'battery_replacement': 70,
+                'charging_port_replacement': 70,
+                'charging_port_service': 20,
+                'front_camera': 70,
                 'rear_camera': 150,
-                'back_glass_replacement': 100
+                'back_glass_replacement': 60
             },
             'samsung_s21_ultra': {
-                'screen_replacement': 200,
-                'battery_replacement': 100,
-                'charging_port_replacement': 150,
-                'charging_port_service': 150,
-                'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'screen_replacement': 450,
+                'battery_replacement': 70,
+                'charging_port_replacement': 70,
+                'charging_port_service': 20,
+                'front_camera': 70,
+                'rear_camera': 260,
+                'back_glass_replacement': 60
             },
             'samsung_s22': {
-                'screen_replacement': 200,
-                'battery_replacement': 100,
-                'charging_port_replacement': 150,
-                'charging_port_service': 150,
-                'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'screen_replacement': 350,
+                'battery_replacement': 70,
+                'charging_port_replacement': 70,
+                'charging_port_service': 20,
+                'front_camera': 70,
+                'rear_camera': 120,
+                'back_glass_replacement': 60
             },
             'samsung_s22_plus': {
-                'screen_replacement': 200,
-                'battery_replacement': 100,
-                'charging_port_replacement': 150,
-                'charging_port_service': 150,
-                'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'screen_replacement': 350,
+                'battery_replacement': 70,
+                'charging_port_replacement': 70,
+                'charging_port_service': 20,
+                'front_camera': 70,
+                'rear_camera': 120,
+                'back_glass_replacement': 60
             },
             'samsung_s22_ultra': {
-                'screen_replacement': 200,
-                'battery_replacement': 100,
-                'charging_port_replacement': 150,
-                'charging_port_service': 150,
-                'front_camera': 150,
+                'screen_replacement': 450,
+                'battery_replacement': 70,
+                'charging_port_replacement': 70,
+                'charging_port_service': 20,
+                'front_camera': 70,
                 'rear_camera': 150,
-                'back_glass_replacement': 100
+                'back_glass_replacement': 170
             },
             'samsung_s23': {
-                'screen_replacement': 200,
-                'battery_replacement': 100,
-                'charging_port_replacement': 150,
-                'charging_port_service': 150,
-                'front_camera': 150,
+                'screen_replacement': 350,
+                'battery_replacement': 70,
+                'charging_port_replacement': 70,
+                'charging_port_service': 20,
+                'front_camera': 70,
                 'rear_camera': 150,
-                'back_glass_replacement': 100
+                'back_glass_replacement': 70
             },
             'samsung_s23_fe': {
-                'screen_replacement': 200,
-                'battery_replacement': 100,
-                'charging_port_replacement': 150,
-                'charging_port_service': 150,
-                'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'screen_replacement': 320,
+                'battery_replacement': 70,
+                'charging_port_replacement': 70,
+                'charging_port_service': 20,
+                'front_camera': 0,
+                'rear_camera': 0,
+                'back_glass_replacement': 70
             },
             'samsung_s23_plus': {
-                'screen_replacement': 200,
-                'battery_replacement': 100,
-                'charging_port_replacement': 150,
-                'charging_port_service': 150,
-                'front_camera': 150,
+                'screen_replacement': 380,
+                'battery_replacement': 70,
+                'charging_port_replacement': 70,
+                'charging_port_service': 20,
+                'front_camera': 70,
                 'rear_camera': 150,
-                'back_glass_replacement': 100
+                'back_glass_replacement': 70
             },
             'samsung_s23_ultra': {
-                'screen_replacement': 200,
-                'battery_replacement': 100,
-                'charging_port_replacement': 150,
-                'charging_port_service': 150,
-                'front_camera': 150,
-                'rear_camera': 150,
-                'back_glass_replacement': 100
+                'screen_replacement': 500,
+                'battery_replacement': 80,
+                'charging_port_replacement': 70,
+                'charging_port_service': 20,
+                'front_camera': 80,
+                'rear_camera': 230,
+                'back_glass_replacement': 70
             }
         },
         'samsung_a': {
             'samsung_a11': {
-                'screen_replacement': 200,
-                'battery_replacement': 100,
-                'charging_port_replacement': 150,
-                'charging_port_service': 150,
-                'front_camera': 150,
-                'rear_camera': 150
+                'screen_replacement': 150,
+                'battery_replacement': 60,
+                'charging_port_replacement': 50,
+                'charging_port_service': 20,
+                'front_camera': 40,
+                'rear_camera': 50
             },
             'samsung_a12': {
-                'screen_replacement': 200,
-                'battery_replacement': 100,
-                'charging_port_replacement': 150,
-                'charging_port_service': 150,
-                'front_camera': 150,
-                'rear_camera': 150
+                'screen_replacement': 150,
+                'battery_replacement': 60,
+                'charging_port_replacement': 50,
+                'charging_port_service': 20,
+                'front_camera': 40,
+                'rear_camera': 50
             },
             'samsung_a13_4g': {
                 'screen_replacement': 200,
