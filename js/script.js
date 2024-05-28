@@ -600,46 +600,54 @@ document.addEventListener('DOMContentLoaded', function() {
                 'rear_camera': 50
             },
             'samsung_a20': {
-                'screen_replacement': 200,
-                'battery_replacement': 100,
-                'charging_port_replacement': 150,
-                'charging_port_service': 150,
-                'front_camera': 150,
-                'rear_camera': 150
+                'screen_replacement': 160,
+                'battery_replacement': 60,
+                'charging_port_replacement': 50,
+                'charging_port_service': 20,
+                'front_camera': 0,
+                'rear_camera': 0
             },
             'samsung_a20s': {
-                'screen_replacement': 200,
-                'battery_replacement': 100,
-                'charging_port_replacement': 150,
-                'charging_port_service': 150,
-                'front_camera': 150,
-                'rear_camera': 150
+                'screen_replacement': 150,
+                'battery_replacement': 60,
+                'charging_port_replacement': 50,
+                'charging_port_service': 20,
+                'front_camera': 0,
+                'rear_camera': 0
             },
             'samsung_a21': {
-                'screen_replacement': 200,
-                'battery_replacement': 100,
-                'charging_port_replacement': 150,
-                'charging_port_service': 150,
-                'front_camera': 150,
-                'rear_camera': 150
+                'screen_replacement': 150,
+                'battery_replacement': 60,
+                'charging_port_replacement': 50,
+                'charging_port_service': 20,
+                'front_camera': 0,
+                'rear_camera': 0
             },
             'samsung_a21s': {
-                'screen_replacement': 200,
-                'battery_replacement': 100,
-                'charging_port_replacement': 150,
-                'charging_port_service': 150,
-                'front_camera': 150,
-                'rear_camera': 150
+                'screen_replacement': 150,
+                'battery_replacement': 60,
+                'charging_port_replacement': 50,
+                'charging_port_service': 20,
+                'front_camera': 40,
+                'rear_camera': 60
             },
             'samsung_a22_4g': {
-                'screen_replacement': 200,
-                'battery_replacement': 100,
-                'charging_port_replacement': 150,
-                'charging_port_service': 150,
-                'front_camera': 150,
-                'rear_camera': 150
+                'screen_replacement': 170,
+                'battery_replacement': 60,
+                'charging_port_replacement': 50,
+                'charging_port_service': 20,
+                'front_camera': 0,
+                'rear_camera': 0
             },
             'samsung_a22_5g': {
+                'screen_replacement': 150,
+                'battery_replacement': 60,
+                'charging_port_replacement': 50,
+                'charging_port_service': 20,
+                'front_camera': 0,
+                'rear_camera': 60
+            },
+            'samsung_a23_4g': {
                 'screen_replacement': 200,
                 'battery_replacement': 100,
                 'charging_port_replacement': 150,
@@ -647,7 +655,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'front_camera': 150,
                 'rear_camera': 150
             },
-            'samsung_a23': {
+	    'samsung_a23_5g': {
                 'screen_replacement': 200,
                 'battery_replacement': 100,
                 'charging_port_replacement': 150,
