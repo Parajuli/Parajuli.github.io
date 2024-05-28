@@ -551,7 +551,71 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         },
         'samsung_a': {
-            'samsung_a11': {
+            'samsung_a02': {
+                'screen_replacement': 100,
+                'battery_replacement': 60,
+                'charging_port_replacement': 50,
+                'charging_port_service': 20,
+                'front_camera': 40,
+                'rear_camera': 50
+            },
+	    'samsung_a02s': {
+                'screen_replacement': 100,
+                'battery_replacement': 60,
+                'charging_port_replacement': 50,
+                'charging_port_service': 20,
+                'front_camera': 40,
+                'rear_camera': 50
+            },
+	    'samsung_a03': {
+                'screen_replacement': 100,
+                'battery_replacement': 60,
+                'charging_port_replacement': 50,
+                'charging_port_service': 20,
+                'front_camera': 40,
+                'rear_camera': 50
+            },
+	    'samsung_a03s': {
+                'screen_replacement': 100,
+                'battery_replacement': 60,
+                'charging_port_replacement': 50,
+                'charging_port_service': 20,
+                'front_camera': 40,
+                'rear_camera': 50
+            },
+	    'samsung_a04': {
+                'screen_replacement': 100,
+                'battery_replacement': 60,
+                'charging_port_replacement': 50,
+                'charging_port_service': 20,
+                'front_camera': 40,
+                'rear_camera': 50
+            },
+	    'samsung_a04s': {
+                'screen_replacement': 100,
+                'battery_replacement': 60,
+                'charging_port_replacement': 50,
+                'charging_port_service': 20,
+                'front_camera': 40,
+                'rear_camera': 50
+            },
+	    'samsung_a05': {
+                'screen_replacement': 100,
+                'battery_replacement': 60,
+                'charging_port_replacement': 50,
+                'charging_port_service': 20,
+                'front_camera': 40,
+                'rear_camera': 50
+            },
+	    'samsung_a05s': {
+                'screen_replacement': 100,
+                'battery_replacement': 60,
+                'charging_port_replacement': 50,
+                'charging_port_service': 20,
+                'front_camera': 40,
+                'rear_camera': 50
+            },
+	    'samsung_a11': {
                 'screen_replacement': 100,
                 'battery_replacement': 60,
                 'charging_port_replacement': 50,
