@@ -1046,79 +1046,99 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     };
 
-    function populateIssues(deviceType) {
-        issueSelect.innerHTML = '<option value="">Select an issue...</option>';
-        const deviceIssues = issues[deviceType] || [];
-        deviceIssues.forEach(issue => {
-            const option = document.createElement('option');
-            option.value = issue.value;
-            option.textContent = issue.label;
-            issueSelect.appendChild(option);
-        });
+function populateIssues(deviceType, deviceModel) {
+    issueSelect.innerHTML = '<option value="">Select an issue...</option>';
+    let deviceIssues = [];
+
+    if (deviceType && deviceModel) {
+        deviceIssues = issues[deviceType] && issues[deviceType][deviceModel] ? issues[deviceType][deviceModel] : [];
+    } else if (deviceType) {
+        deviceIssues = issues[deviceType] || [];
     }
 
-    function updateModelOptions(deviceType) {
-        modelSelect.innerHTML = '<option value="">Select a model...</option>';
-        const deviceModels = Object.keys(prices[deviceType] || {});
-        deviceModels.forEach(model => {
-            const option = document.createElement('option');
-            option.value = model;
-            option.textContent = formatModelName(model);
-            modelSelect.appendChild(option);
-        });
-    }
-	
-	function formatModelName(model) {
-		// Define exceptions for specific models
-		const exceptions = {
-			'iphone': 'iPhone',
-			'ipad': 'iPad',
-			'se': 'SE',
-			'xs': 'XS',
-			'xr': 'XR',
-			'xl': 'XL',
-			'fe': 'FE',
-			'4g': '4G',
-			'5g': '5G'
-		};
+    deviceIssues.forEach(issue => {
+        const option = document.createElement('option');
+        option.value = issue.value;
+        option.textContent = issue.label;
+        issueSelect.appendChild(option);
+    });
+}
 
-		// Replace underscores with spaces and capitalize each word
-		const formattedModel = model.replace(/_/g, ' ').replace(/\b\w/g, firstLetter => firstLetter.toUpperCase());
+function updateModelOptions(deviceType) {
+    modelSelect.innerHTML = '<option value="">Select a model...</option>';
+    const deviceModels = Object.keys(prices[deviceType] || {});
+    deviceModels.forEach(model => {
+        const option = document.createElement('option');
+        option.value = model;
+        option.textContent = formatModelName(model);
+        modelSelect.appendChild(option);
+    });
+    populateIssues(deviceType);
+}
 
-		// Apply exceptions
-		const words = formattedModel.split(' ');
-		for (let i = 0; i < words.length; i++) {
-			const word = words[i].toLowerCase();
-			if (exceptions[word]) {
-				words[i] = exceptions[word];
-			}
-		}
+function formatModelName(model) {
+    const exceptions = {
+        'iphone': 'iPhone',
+        'ipad': 'iPad',
+        'se': 'SE',
+        'xs': 'XS',
+        'xr': 'XR',
+        'xl': 'XL',
+        'fe': 'FE',
+        '4g': '4G',
+        '5g': '5G'
+    };
 
-		return words.join(' ');
-	}
+    const formattedModel = model.replace(/_/g, ' ').replace(/\b\w/g, firstLetter => firstLetter.toUpperCase());
 
-    function updatePrice() {
-        const selectedDeviceType = deviceTypeSelect.value;
-        const selectedModel = modelSelect.value;
-        const selectedIssue = issueSelect.value;
-
-        if (selectedDeviceType && selectedModel && selectedIssue) {
-            const price = prices[selectedDeviceType][selectedModel][selectedIssue];
-            priceSpan.textContent = `$${price}`;
-        } else {
-            priceSpan.textContent = '';
+    const words = formattedModel.split(' ');
+    for (let i = 0; i < words.length; i++) {
+        const word = words[i].toLowerCase();
+        if (exceptions[word]) {
+            words[i] = exceptions[word];
         }
     }
 
-    deviceTypeSelect.addEventListener('change', () => {
-        const selectedDeviceType = deviceTypeSelect.value;
-        populateIssues(selectedDeviceType);
-        updateModelOptions(selectedDeviceType);
-        updatePrice();
-    });
+    return words.join(' ');
+}
 
-    modelSelect.addEventListener('change', updatePrice);
-    issueSelect.addEventListener('change', updatePrice);
+function updatePrice() {
+    const selectedDeviceType = deviceTypeSelect.value;
+    const selectedModel = modelSelect.value;
+    const selectedIssue = issueSelect.value;
+
+    if (selectedDeviceType && selectedModel && selectedIssue) {
+        const price = prices[selectedDeviceType][selectedModel][selectedIssue];
+        priceSpan.textContent = `$${price}`;
+    } else if (selectedModel && selectedIssue) {
+        let price;
+        for (const deviceType in prices) {
+            if (prices[deviceType][selectedModel] && prices[deviceType][selectedModel][selectedIssue]) {
+                price = prices[deviceType][selectedModel][selectedIssue];
+                break;
+            }
+        }
+        priceSpan.textContent = price ? `$${price}` : '';
+    } else {
+        priceSpan.textContent = '';
+    }
+}
+
+deviceTypeSelect.addEventListener('change', () => {
+    const selectedDeviceType = deviceTypeSelect.value;
+    populateIssues(selectedDeviceType);
+    updateModelOptions(selectedDeviceType);
+    updatePrice();
+});
+
+modelSelect.addEventListener('change', () => {
+    const selectedDeviceType = deviceTypeSelect.value;
+    const selectedModel = modelSelect.value;
+    populateIssues(selectedDeviceType, selectedModel);
+    updatePrice();
+});
+
+issueSelect.addEventListener('change', updatePrice);
 
     menuToggle.addEventListener('click', () => {
         navLinks.classList.toggle('active');
