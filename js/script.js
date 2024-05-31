@@ -1163,35 +1163,32 @@ function populateIssues(deviceType) {
             modelSelect.appendChild(option);
         });
     }
-	
-	function formatModelName(model) {
-		// Define exceptions for specific models
-		const exceptions = {
-			'iphone': 'iPhone',
-			'ipad': 'iPad',
-			'se': 'SE',
-			'xs': 'XS',
-			'xr': 'XR',
-			'xl': 'XL',
-			'fe': 'FE',
-			'4g': '4G',
-			'5g': '5G'
-		};
 
-		// Replace underscores with spaces and capitalize each word
-		const formattedModel = model.replace(/_/g, ' ').replace(/\b\w/g, firstLetter => firstLetter.toUpperCase());
+    function formatModelName(model) {
+        const exceptions = {
+            'iphone': 'iPhone',
+            'ipad': 'iPad',
+            'se': 'SE',
+            'xs': 'XS',
+            'xr': 'XR',
+            'xl': 'XL',
+            'fe': 'FE',
+            '4g': '4G',
+            '5g': '5G'
+        };
 
-		// Apply exceptions
-		const words = formattedModel.split(' ');
-		for (let i = 0; i < words.length; i++) {
-			const word = words[i].toLowerCase();
-			if (exceptions[word]) {
-				words[i] = exceptions[word];
-			}
-		}
+        const formattedModel = model.replace(/_/g, ' ').replace(/\b\w/g, firstLetter => firstLetter.toUpperCase());
 
-		return words.join(' ');
-	}
+        const words = formattedModel.split(' ');
+        for (let i = 0; i < words.length; i++) {
+            const word = words[i].toLowerCase();
+            if (exceptions[word]) {
+                words[i] = exceptions[word];
+            }
+        }
+
+        return words.join(' ');
+    }
 
     function updatePrice() {
         const selectedDeviceType = deviceTypeSelect.value;
@@ -1215,6 +1212,10 @@ function populateIssues(deviceType) {
 
     modelSelect.addEventListener('change', updatePrice);
     issueSelect.addEventListener('change', updatePrice);
+
+    // Clear model and issue selects on load
+    modelSelect.innerHTML = '<option value="">Select a model...</option>';
+    issueSelect.innerHTML = '<option value="">Select an issue...</option>';
 
     menuToggle.addEventListener('click', () => {
         navLinks.classList.toggle('active');
