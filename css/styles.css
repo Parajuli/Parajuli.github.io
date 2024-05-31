@@ -166,7 +166,7 @@ button:hover {
 .contact-info,
 .address-info {
     flex-basis: calc(33.33% - 20px);
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 /* Styling for phone number link */
