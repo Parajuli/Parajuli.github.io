@@ -1220,12 +1220,14 @@ function populateIssues(deviceType) {
     menuToggle.addEventListener('click', () => {
         navLinks.classList.toggle('active');
 	menuToggle.classList.toggle('active');
+	document.body.classList.toggle('lock-scroll');
     });
 
     navItems.forEach(item => {
         item.addEventListener('click', () => {
             navLinks.classList.remove('active');
 	    menuToggle.classList.remove('active');
+	    document.body.classList.remove('lock-scroll');
         });
     });
 });
