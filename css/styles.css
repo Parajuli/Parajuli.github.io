@@ -78,6 +78,16 @@ nav {
     border-radius: 4px;
 }
 
+.book-now-btn {
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+}
+
+.book-repair {
+	
+}
+
 .logo img {
     width: 35px;
     height: 35px;
