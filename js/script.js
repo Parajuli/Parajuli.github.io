@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const menuToggle = document.getElementById('menuToggle');
     const navLinks = document.getElementById('navLinks');
     const navItems = document.querySelectorAll('.nav-links li a');
+    const bookNowContainer = document.getElementById('book-now-container');
 
     const issues = {
         'iphone': [{
@@ -1196,11 +1197,15 @@ function populateIssues(deviceType) {
         const selectedIssue = issueSelect.value;
 
         if (selectedDeviceType && selectedModel && selectedIssue) {
-            const price = prices[selectedDeviceType][selectedModel][selectedIssue];
-            priceSpan.textContent = `$${price}`;
-        } else {
-            priceSpan.textContent = '';
-        }
+        	const price = prices[selectedDeviceType][selectedModel][selectedIssue];
+        	priceSpan.textContent = `$${price}`;
+
+        	// Add Book Now button
+        	bookNowContainer.innerHTML = '<a href="#book-now" class="book-now-btn">BOOK REPAIR</a>';
+    	} else {
+        	priceSpan.textContent = '';
+        	bookNowContainer.innerHTML = ''; // Clear the Book Now button
+    	}
     }
 
     deviceTypeSelect.addEventListener('change', () => {
