@@ -113,7 +113,7 @@ nav {
 }
 
 /* Responsive styles */
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     .nav-links {
         display: none;
         flex-direction: column;
@@ -228,7 +228,7 @@ button:hover {
     border-radius: 4px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     #get-quote select {
         width: 90%;
         font-size: 1rem;
