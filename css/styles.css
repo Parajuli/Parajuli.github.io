@@ -147,8 +147,7 @@ nav {
 }
 
 section {
-    padding-top: 1.5rem;
-    padding-bottom: 1rem;
+    padding: 1.5rem 10px 1rem 10px;
     text-align: center;
     margin-top: 0px; /* Adjust for fixed navbar */
 }
