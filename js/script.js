@@ -1201,7 +1201,7 @@ function populateIssues(deviceType) {
         	priceSpan.textContent = `$${price}`;
 
         	// Add Book Now button
-        	bookNowContainer.innerHTML = '<a href="#book-now" class="book-now-btn">BOOK REPAIR</a>';
+        	bookNowContainer.innerHTML = '<a href="#book-now" class="book-repair">BOOK REPAIR</a>';
     	} else {
         	priceSpan.textContent = '';
         	bookNowContainer.innerHTML = ''; // Clear the Book Now button
