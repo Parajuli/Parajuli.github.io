@@ -113,7 +113,7 @@ nav {
 }
 
 /* Responsive styles */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .nav-links {
         display: none;
         flex-direction: column;
@@ -150,6 +150,7 @@ section {
     padding: 1.5rem 10px 1rem 10px;
     text-align: center;
     margin-top: 0px; /* Adjust for fixed navbar */
+    font-size: 1rem;
 }
 
 /* Alternate section colors */
@@ -228,7 +229,7 @@ button:hover {
     border-radius: 4px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     #get-quote select {
         width: 90%;
         font-size: 1rem;
