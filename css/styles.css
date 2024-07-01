@@ -211,6 +211,22 @@ button:hover {
     text-decoration: none;
 }
 
+#welcome {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+}
+
+#welcome h1 {
+    font-size: 4rem; /* Increased font size */
+    margin-bottom: 0.5rem;
+}
+
+#welcome p {
+    font-size: 1.5rem; /* Smaller text */
+    color: #555;
+}
+
 /* Styles for Get Your Quote section */
 #get-quote {
     padding-top: 4rem;
