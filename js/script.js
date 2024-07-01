@@ -385,6 +385,50 @@ document.addEventListener('DOMContentLoaded', function() {
                 'rear_camera': 250,
                 'camera_lens': 50,
                 'housing_replacement': 350
+            },
+	    'iphone_15': {
+                'screen_replacement_aftermarket': 240,
+                'screen_replacement_premium': 470,
+                'battery_replacement': 0,
+		'charging_port_replacement': 130,
+                'charging_port_service': 20,
+                'front_camera': 0,
+                'rear_camera': 130,
+                'camera_lens': 50,
+                'housing_replacement': 240
+            },
+            'iphone_15_plus': {
+                'screen_replacement_aftermarket': 320,
+                'screen_replacement_premium': 0,
+                'battery_replacement': 0,
+		'charging_port_replacement': 150,
+                'charging_port_service': 20,
+                'front_camera': 0,
+                'rear_camera': 130,
+                'camera_lens': 50,
+                'housing_replacement': 300
+            },
+            'iphone_15_pro': {
+                'screen_replacement_aftermarket': 360,
+                'screen_replacement_premium': 0,
+                'battery_replacement': 0,
+		'charging_port_replacement': 150,
+                'charging_port_service': 20,
+                'front_camera': 0,
+                'rear_camera': 0,
+                'camera_lens': 50,
+                'housing_replacement': 340
+            },
+            'iphone_15_pro_max': {
+                'screen_replacement_aftermarket': 380,
+                'screen_replacement_premium': 0,
+                'battery_replacement': 0,
+		'charging_port_replacement': 120,
+                'charging_port_service': 20,
+                'front_camera': 0,
+                'rear_camera': 0,
+                'camera_lens': 50,
+                'housing_replacement': 380
             }
         },
         'samsung_s': {
