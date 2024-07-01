@@ -156,7 +156,7 @@ section {
 }
 
 /* Alternate section colors */
-section:nth-child(even) {
+section:nth-child(odd) {
     background-color: #e7ebe6;
 }
 
