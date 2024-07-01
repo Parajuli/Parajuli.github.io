@@ -1121,8 +1121,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 'lcd_replacement': 170
             },
             'ipad_10': {
-                'screen_replacement': 0,
-                'lcd_replacement': 0
+                'screen_replacement': 120,
+                'lcd_replacement': 250
             }
 	},
 	'ipad_mini': {
