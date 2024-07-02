@@ -550,7 +550,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'back_glass_replacement': 60
             },
             'samsung_s22_ultra': {
-                'screen_replacement': 450,
+                'screen_replacement': 400,
                 'battery_replacement': 70,
                 'charging_port_replacement': 70,
                 'charging_port_service': 20,
@@ -586,7 +586,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'back_glass_replacement': 70
             },
             'samsung_s23_ultra': {
-                'screen_replacement': 500,
+                'screen_replacement': 450,
                 'battery_replacement': 80,
                 'charging_port_replacement': 70,
                 'charging_port_service': 20,
