@@ -1244,8 +1244,9 @@ function populateIssues(deviceType) {
         	const price = prices[selectedDeviceType][selectedModel][selectedIssue];
         	priceSpan.textContent = `$${price}`;
 
-        	// Add Book Now button
-        	bookNowContainer.innerHTML = '<a href="#book-now" class="book-repair">BOOK REPAIR</a>';
+        	bookNowContainer.innerHTML = '<p>We issue <b>three months warranty*</b> with this repair.</p>';
+		// Add Book Now button
+        	bookNowContainer.innerHTML += '<a href="#book-now" class="book-repair">BOOK REPAIR</a>';
     	} else {
         	priceSpan.textContent = '';
         	bookNowContainer.innerHTML = ''; // Clear the Book Now button
