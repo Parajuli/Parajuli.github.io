@@ -1244,7 +1244,7 @@ function populateIssues(deviceType) {
         	const price = prices[selectedDeviceType][selectedModel][selectedIssue];
         	priceSpan.textContent = `$${price}`;
 
-        	bookNowContainer.innerHTML = '<p>We issue <b>three months warranty*</b> with this repair.</p>';
+        	bookNowContainer.innerHTML = '<p><em>We issue <b>three months warranty*</b> with this repair.</em></p>';
 		// Add Book Now button
         	bookNowContainer.innerHTML += '<a href="#book-now" class="book-repair">BOOK REPAIR</a>';
     	} else {
