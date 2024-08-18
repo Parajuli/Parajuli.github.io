@@ -277,7 +277,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'housing_replacement': 220
             },
             'iphone_12_pro': {
-                'screen_replacement_aftermarket': 130,
+                'screen_replacement_aftermarket': 120,
                 'screen_replacement_premium': 240,
                 'battery_replacement': 80,
 		'charging_port_replacement': 90,
@@ -288,7 +288,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'housing_replacement': 250
             },
             'iphone_12_pro_max': {
-                'screen_replacement_aftermarket': 150,
+                'screen_replacement_aftermarket': 130,
                 'screen_replacement_premium': 250,
                 'battery_replacement': 90,
 		'charging_port_replacement': 90,
@@ -299,7 +299,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'housing_replacement': 260
             },
             'iphone_13': {
-                'screen_replacement_aftermarket': 150,
+                'screen_replacement_aftermarket': 120,
                 'screen_replacement_premium': 250,
                 'battery_replacement': 90,
 		'charging_port_replacement': 90,
@@ -310,7 +310,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'housing_replacement': 150
             },
             'iphone_13_mini': {
-                'screen_replacement_aftermarket': 120,
+                'screen_replacement_aftermarket': 110,
                 'screen_replacement_premium': 200,
                 'battery_replacement': 80,
 		'charging_port_replacement': 90,
@@ -332,8 +332,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 'housing_replacement': 300
             },
             'iphone_13_pro_max': {
-                'screen_replacement_aftermarket': 360,
-                'screen_replacement_premium': 550,
+                'screen_replacement_aftermarket': 250,
+                'screen_replacement_premium': 450,
                 'battery_replacement': 90,
 		'charging_port_replacement': 100,
                 'charging_port_service': 20,
@@ -343,8 +343,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 'housing_replacement': 350
             },
             'iphone_14': {
-                'screen_replacement_aftermarket': 200,
-                'screen_replacement_premium': 380,
+                'screen_replacement_aftermarket': 130,
+                'screen_replacement_premium': 250,
                 'battery_replacement': 100,
 		'charging_port_replacement': 100,
                 'charging_port_service': 20,
@@ -354,8 +354,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 'housing_replacement': 150
             },
             'iphone_14_plus': {
-                'screen_replacement_aftermarket': 250,
-                'screen_replacement_premium': 350,
+                'screen_replacement_aftermarket': 150,
+                'screen_replacement_premium': 280,
                 'battery_replacement': 100,
 		'charging_port_replacement': 100,
                 'charging_port_service': 20,
