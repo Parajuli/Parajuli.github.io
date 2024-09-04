@@ -299,7 +299,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 'housing_replacement': 260
             },
             'iphone_13': {
-                'screen_replacement_aftermarket': 120,
+                'screen_replacement_aftermarket': 130,
                 'screen_replacement_premium': 250,
                 'battery_replacement': 90,
 		'charging_port_replacement': 90,
