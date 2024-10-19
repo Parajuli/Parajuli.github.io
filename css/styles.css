@@ -288,3 +288,55 @@ button:hover {
     height: auto;
     border-radius: 8px;
 }
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Center the text */
+    position: relative;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.social-icons {
+    position: absolute;
+    right: 20px; /* Send icons to the far right */
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon img {
+    width: 30px;
+    height: 30px;
+    border-radius: 30%;
+    object-fit: cover;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.social-icon:hover img {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-icons {
+        position: static;
+        margin-top: 10px;
+    }
+}
